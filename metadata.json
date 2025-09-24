@@ -1,0 +1,5 @@
+{
+  "name": "MoodVerse",
+  "description": "An application that displays a relevant verse based on your selected mood, drawing from a local collection of verses.",
+  "requestFramePermissions": []
+}

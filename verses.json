@@ -1,0 +1,3102 @@
+[
+  {
+    "id": "mv-001",
+    "ref": "Quran 2:286",
+    "sura": 2,
+    "ayah": 286,
+    "translation": "Allah does not burden a soul beyond that it can bear...",
+    "moods": [
+      "stress",
+      "sad",
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-002",
+    "ref": "Quran 94:5",
+    "sura": 94,
+    "ayah": 5,
+    "translation": "For indeed, with hardship [will be] ease.",
+    "moods": [
+      "stress",
+      "sad",
+      "hopeful",
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-003",
+    "ref": "Quran 39:53",
+    "sura": 39,
+    "ayah": 53,
+    "translation": "Say, 'O My servants who have transgressed against themselves [by sinning], do not despair of the mercy of Allah. Indeed, Allah forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.'",
+    "moods": [
+      "sad",
+      "hopeful",
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-004",
+    "ref": "Quran 14:7",
+    "sura": 14,
+    "ayah": 7,
+    "translation": "And [remember] when your Lord proclaimed, 'If you are grateful, I will surely increase you [in favor]; but if you deny, indeed, My punishment is severe.'",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-005",
+    "ref": "Quran 2:153",
+    "sura": 2,
+    "ayah": 153,
+    "translation": "O you who have believed, seek help through patience and prayer. Indeed, Allah is with the patient.",
+    "moods": [
+      "patience",
+      "stress",
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-006",
+    "ref": "Quran 3:139",
+    "sura": 3,
+    "ayah": 139,
+    "translation": "So do not weaken and do not grieve, and you will be superior if you are [true] believers.",
+    "moods": [
+      "demotivated",
+      "sad",
+      "courage",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-007",
+    "ref": "Quran 13:28",
+    "sura": 13,
+    "ayah": 28,
+    "translation": "Those who have believed and whose hearts are assured by the remembrance of Allah. Unquestionably, by the remembrance of Allah hearts are assured.",
+    "moods": [
+      "stress",
+      "calm",
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-008",
+    "ref": "Quran 4:147",
+    "sura": 4,
+    "ayah": 147,
+    "translation": "What would Allah do with your punishment if you are grateful and believe? And ever is Allah Appreciative and Knowing.",
+    "moods": [
+      "grateful",
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-009",
+    "ref": "Quran 2:216",
+    "sura": 2,
+    "ayah": 216,
+    "translation": "...But perhaps you hate a thing and it is good for you; and perhaps you love a thing and it is bad for you. And Allah Knows, while you know not.",
+    "moods": [
+      "patience",
+      "hopeful",
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-010",
+    "ref": "Quran 25:70",
+    "sura": 25,
+    "ayah": 70,
+    "translation": "Except for those who repent, believe and do righteous work. For them Allah will replace their evil deeds with good. And ever is Allah Forgiving and Merciful.",
+    "moods": [
+      "forgiveness",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-011",
+    "ref": "Quran 8:2",
+    "sura": 8,
+    "ayah": 2,
+    "translation": "The believers are only those who, when Allah is mentioned, their hearts become fearful, and when His verses are recited to them, it increases them in faith; and upon their Lord they rely.",
+    "moods": [
+      "calm",
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-012",
+    "ref": "Quran 2:45",
+    "sura": 2,
+    "ayah": 45,
+    "translation": "And seek help through patience and prayer, and indeed, it is difficult except for the humbly submissive [to Allah].",
+    "moods": [
+      "patience",
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-013",
+    "ref": "Quran 12:87",
+    "sura": 12,
+    "ayah": 87,
+    "translation": "...Indeed, no one despairs of relief from Allah except the disbelieving people.",
+    "moods": [
+      "hopeful",
+      "demotivated",
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-014",
+    "ref": "Quran 2:269",
+    "sura": 2,
+    "ayah": 269,
+    "translation": "He gives wisdom to whom He wills, and whoever has been given wisdom has certainly been given much good. And none will remember except those of understanding.",
+    "moods": [
+      "grateful",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-015",
+    "ref": "Quran 41:34",
+    "sura": 41,
+    "ayah": 34,
+    "translation": "And not equal are the good deed and the bad. Repel [evil] by that [deed] which is better; and thereupon the one whom between you and him is enmity [will become] as though he was a devoted friend.",
+    "moods": [
+      "courage",
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-016",
+    "ref": "Quran 3:173",
+    "sura": 3,
+    "ayah": 173,
+    "translation": "Those to whom hypocrites said, 'Indeed, the people have gathered against you, so fear them.' But it [only] increased them in faith, and they said, 'Sufficient for us is Allah, and [He is] the best Disposer of affairs.'",
+    "moods": [
+      "courage",
+      "stress",
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-017",
+    "ref": "Quran 65:3",
+    "sura": 65,
+    "ayah": 3,
+    "translation": "And will provide for him from where he does not expect. And whoever relies upon Allah - then He is sufficient for him. Indeed, Allah will accomplish His purpose. Allah has already set for everything a [decreed] extent.",
+    "moods": [
+      "hopeful",
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-018",
+    "ref": "Quran 7:126",
+    "sura": 7,
+    "ayah": 126,
+    "translation": "...Our Lord, pour upon us patience and let us die as Muslims [in submission to You].",
+    "moods": [
+      "patience",
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-019",
+    "ref": "Quran 11:9",
+    "sura": 11,
+    "ayah": 9,
+    "translation": "And if We give man a taste of mercy from Us and then We withdraw it from him, indeed, he is despairing and ungrateful.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-020",
+    "ref": "Quran 29:2",
+    "sura": 29,
+    "ayah": 2,
+    "translation": "Do the people think that they will be left to say, 'We believe' and not be tested?",
+    "moods": [
+      "hopeful",
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-021",
+    "ref": "Quran 35:34",
+    "sura": 35,
+    "ayah": 34,
+    "translation": "And they will say, 'Praise to Allah, who has removed from us all sorrow.'",
+    "moods": [
+      "hopeful",
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-022",
+    "ref": "Quran 93:4",
+    "sura": 93,
+    "ayah": 4,
+    "translation": "And the Hereafter is better for you than the first life.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-023",
+    "ref": "Quran 94:6",
+    "sura": 94,
+    "ayah": 6,
+    "translation": "Indeed, with hardship will be ease.",
+    "moods": [
+      "hopeful",
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-024",
+    "ref": "Quran 2:214",
+    "sura": 2,
+    "ayah": 214,
+    "translation": "When will the help of Allah come? Unquestionably, the help of Allah is near.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-025",
+    "ref": "Quran 40:60",
+    "sura": 40,
+    "ayah": 60,
+    "translation": "And your Lord says, 'Call upon Me; I will respond to you.'",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-026",
+    "ref": "Quran 2:62",
+    "sura": 2,
+    "ayah": 62,
+    "translation": "Indeed, those who believed and those who were Jews or Christians or Sabeans [before Prophet Muhammad] - those [among them] who believed in Allah and the Last Day and did righteousness - will have their reward with their Lord, and no fear will there be concerning them, nor will they grieve.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-027",
+    "ref": "Quran 67:2",
+    "sura": 67,
+    "ayah": 2,
+    "translation": "He created death and life to test which of you is best in deed.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-028",
+    "ref": "Quran 39:10",
+    "sura": 39,
+    "ayah": 10,
+    "translation": "Say, 'O My servants who believe, fear your Lord. For those who do good is good.'",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-029",
+    "ref": "Quran 16:97",
+    "sura": 16,
+    "ayah": 97,
+    "translation": "Whoever does a righteous deed, We will surely cause him to live a good life.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-030",
+    "ref": "Quran 28:77",
+    "sura": 28,
+    "ayah": 77,
+    "translation": "But seek the home of the Hereafter, but do not forget your share of the world.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-031",
+    "ref": "Quran 21:35",
+    "sura": 21,
+    "ayah": 35,
+    "translation": "Every soul will taste death. We test you with evil and good as trial.",
+    "moods": [
+      "hopeful",
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-032",
+    "ref": "Quran 32:16",
+    "sura": 32,
+    "ayah": 16,
+    "translation": "Their sides forsake their beds to invoke their Lord in fear and aspiration.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-033",
+    "ref": "Quran 64:11",
+    "sura": 64,
+    "ayah": 11,
+    "translation": "No disaster strikes except by permission of Allah. And whoever believes in Allah - He will guide his heart.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-034",
+    "ref": "Quran 18:2",
+    "sura": 18,
+    "ayah": 2,
+    "translation": "He has made it straight, to warn of severe punishment and give good tidings.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-035",
+    "ref": "Quran 76:12",
+    "sura": 76,
+    "ayah": 12,
+    "translation": "And will reward them for what they patiently endured with a garden and silk.",
+    "moods": [
+      "hopeful",
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-036",
+    "ref": "Quran 99:7",
+    "sura": 99,
+    "ayah": 7,
+    "translation": "So whoever does an atom's weight of good will see it.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-037",
+    "ref": "Quran 17:7",
+    "sura": 17,
+    "ayah": 7,
+    "translation": "If you do good, you do good for yourselves; if you do evil, it is to yourselves.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-038",
+    "ref": "Quran 57:21",
+    "sura": 57,
+    "ayah": 21,
+    "translation": "Race toward forgiveness from your Lord and a Garden as wide as the heavens and earth.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-039",
+    "ref": "Quran 89:27",
+    "sura": 89,
+    "ayah": 27,
+    "translation": "O reassured soul, return to your Lord, well-pleased and pleasing to Him.",
+    "moods": [
+      "hopeful",
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-040",
+    "ref": "Quran 103:3",
+    "sura": 103,
+    "ayah": 3,
+    "translation": "Except for those who believe and do righteous deeds and advise each other to truth.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-041",
+    "ref": "Quran 30:60",
+    "sura": 30,
+    "ayah": 60,
+    "translation": "So be patient. Indeed, the promise of Allah is truth.",
+    "moods": [
+      "hopeful",
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-042",
+    "ref": "Quran 46:13",
+    "sura": 46,
+    "ayah": 13,
+    "translation": "Those who say, 'Our Lord is Allah' and remain steadfast - no fear shall they have.",
+    "moods": [
+      "hopeful",
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-043",
+    "ref": "Quran 41:30",
+    "sura": 41,
+    "ayah": 30,
+    "translation": "Those who say, 'Our Lord is Allah' and remain steadfast - the angels will descend upon them.",
+    "moods": [
+      "hopeful",
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-044",
+    "ref": "Quran 23:96",
+    "sura": 23,
+    "ayah": 96,
+    "translation": "Repel, by that which is better, evil. We are most knowing of what they describe.",
+    "moods": [
+      "hopeful",
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-045",
+    "ref": "Quran 55:60",
+    "sura": 55,
+    "ayah": 60,
+    "translation": "Is the reward for good anything but good?",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-046",
+    "ref": "Quran 29:69",
+    "sura": 29,
+    "ayah": 69,
+    "translation": "And those who strive for Us - We will surely guide them to Our ways.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-047",
+    "ref": "Quran 24:55",
+    "sura": 24,
+    "ayah": 55,
+    "translation": "Allah has promised those who believe among you and do righteous deeds that He will surely grant them succession.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-048",
+    "ref": "Quran 9:51",
+    "sura": 9,
+    "ayah": 51,
+    "translation": "Say, 'Never will we be struck except by what Allah has decreed for us.'",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-049",
+    "ref": "Quran 8:17",
+    "sura": 8,
+    "ayah": 17,
+    "translation": "And you did not kill them, but it was Allah who killed them.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-050",
+    "ref": "Quran 6:162",
+    "sura": 6,
+    "ayah": 162,
+    "translation": "Say, 'Indeed, my prayer, my rites, my living and my dying are for Allah.'",
+    "moods": [
+      "hopeful",
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-051",
+    "ref": "Quran 42:36",
+    "sura": 42,
+    "ayah": 36,
+    "translation": "So whatever thing you have been given - it is but enjoyment of worldly life.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-052",
+    "ref": "Quran 20:50",
+    "sura": 20,
+    "ayah": 50,
+    "translation": "Our Lord is He who gave each thing its form and then guided it.",
+    "moods": [
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-053",
+    "ref": "Quran 25:63",
+    "sura": 25,
+    "ayah": 63,
+    "translation": "And the servants of the Most Merciful are those who walk upon the earth easily.",
+    "moods": [
+      "hopeful",
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-054",
+    "ref": "Quran 16:53",
+    "sura": 16,
+    "ayah": 53,
+    "translation": "And whatever of blessings and good things you have, it is from Allah.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-055",
+    "ref": "Quran 16:78",
+    "sura": 16,
+    "ayah": 78,
+    "translation": "Allah brought you out of your mother's wombs knowing nothing, and gave you hearing, sight and hearts.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-056",
+    "ref": "Quran 31:12",
+    "sura": 31,
+    "ayah": 12,
+    "translation": "And whoever is grateful is grateful for the benefit of himself.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-057",
+    "ref": "Quran 14:34",
+    "sura": 14,
+    "ayah": 34,
+    "translation": "If you should count the favors of Allah, you could not enumerate them.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-058",
+    "ref": "Quran 2:172",
+    "sura": 2,
+    "ayah": 172,
+    "translation": "O you who believe, eat from the good things We provided and be thankful to Allah.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-059",
+    "ref": "Quran 27:40",
+    "sura": 27,
+    "ayah": 40,
+    "translation": "This is from the favor of my Lord that He may test me whether I am grateful or ungrateful.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-060",
+    "ref": "Quran 3:145",
+    "sura": 3,
+    "ayah": 145,
+    "translation": "And We will reward the grateful.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-061",
+    "ref": "Quran 39:7",
+    "sura": 39,
+    "ayah": 7,
+    "translation": "If you are grateful, He is pleased with it for you.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-062",
+    "ref": "Quran 76:9",
+    "sura": 76,
+    "ayah": 9,
+    "translation": "We feed you only for the countenance of Allah. We wish not from you reward or gratitude.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-063",
+    "ref": "Quran 45:12",
+    "sura": 45,
+    "ayah": 12,
+    "translation": "Allah has subjected to you whatever is in the heavens and earth that you might be grateful.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-064",
+    "ref": "Quran 36:73",
+    "sura": 36,
+    "ayah": 73,
+    "translation": "And for them therein are benefits and drinks, so will they not be grateful?",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-065",
+    "ref": "Quran 7:58",
+    "sura": 7,
+    "ayah": 58,
+    "translation": "And the good land - its vegetation emerges by permission of its Lord; but which is bad - nothing emerges except sparsely.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-066",
+    "ref": "Quran 22:36",
+    "sura": 22,
+    "ayah": 36,
+    "translation": "That you may remember Allah upon them. So eat of them and feed the miserable and poor.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-067",
+    "ref": "Quran 16:114",
+    "sura": 16,
+    "ayah": 114,
+    "translation": "So eat of what Allah has provided for you lawful and good. And be grateful for Allah's favor.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-068",
+    "ref": "Quran 35:3",
+    "sura": 35,
+    "ayah": 3,
+    "translation": "O mankind, remember the favor of Allah upon you.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-069",
+    "ref": "Quran 29:17",
+    "sura": 29,
+    "ayah": 17,
+    "translation": "You only worship, besides Allah, idols, and you create falsehood. Indeed, those you worship besides Allah do not possess for you [any] provision, so seek from Allah provision and worship Him and be grateful to Him. To Him you will be returned.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-070",
+    "ref": "Quran 6:142",
+    "sura": 6,
+    "ayah": 142,
+    "translation": "Eat of its fruit when it yields and give its due on the day of its harvest.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-071",
+    "ref": "Quran 43:13",
+    "sura": 43,
+    "ayah": 13,
+    "translation": "That you may settle yourselves upon their backs and remember the favor of your Lord.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-072",
+    "ref": "Quran 17:3",
+    "sura": 17,
+    "ayah": 3,
+    "translation": "O descendants of those We carried with Noah. Indeed, he was a grateful servant.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-073",
+    "ref": "Quran 42:23",
+    "sura": 42,
+    "ayah": 23,
+    "translation": "Say, 'I do not ask you for this message any payment but only good will through kinship.'",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-074",
+    "ref": "Quran 2:152",
+    "sura": 2,
+    "ayah": 152,
+    "translation": "So remember Me; I will remember you. And be grateful to Me and do not deny Me.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-075",
+    "ref": "Quran 16:121",
+    "sura": 16,
+    "ayah": 121,
+    "translation": "Grateful for His favors. Allah chose him and guided him to a straight path.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-076",
+    "ref": "Quran 54:35",
+    "sura": 54,
+    "ayah": 35,
+    "translation": "As a reward from Us. Thus do We reward he who is grateful.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-077",
+    "ref": "Quran 68:34",
+    "sura": 68,
+    "ayah": 34,
+    "translation": "Indeed, for the righteous with their Lord are the Gardens of Pleasure.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-078",
+    "ref": "Quran 23:78",
+    "sura": 23,
+    "ayah": 78,
+    "translation": "And it is He who produced for you hearing and vision and hearts; little are you grateful.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-079",
+    "ref": "Quran 67:23",
+    "sura": 67,
+    "ayah": 23,
+    "translation": "Say, 'It is He who produced you and made for you hearing and vision and hearts; little are you grateful.'",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-080",
+    "ref": "Quran 32:9",
+    "sura": 32,
+    "ayah": 9,
+    "translation": "Then He proportioned him and breathed into him from His spirit and made for you hearing and vision and hearts; little are you grateful.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-081",
+    "ref": "Quran 12:38",
+    "sura": 12,
+    "ayah": 38,
+    "translation": "That is from the favor of Allah upon us and upon the people, but most people are not grateful.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-082",
+    "ref": "Quran 40:61",
+    "sura": 40,
+    "ayah": 61,
+    "translation": "Allah is He who made for you the night that you may rest therein and the day giving sight.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-083",
+    "ref": "Quran 25:62",
+    "sura": 25,
+    "ayah": 62,
+    "translation": "And it is He who made the night and the day in succession for whoever desires to remember or desires gratitude.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-084",
+    "ref": "Quran 28:73",
+    "sura": 28,
+    "ayah": 73,
+    "translation": "And it is out of His mercy that He made for you the night and the day.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-085",
+    "ref": "Quran 16:80",
+    "sura": 16,
+    "ayah": 80,
+    "translation": "And Allah has made for you from your homes a place of rest.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-086",
+    "ref": "Quran 6:141",
+    "sura": 6,
+    "ayah": 141,
+    "translation": "And it is He who produces gardens trellised and untrellised.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-087",
+    "ref": "Quran 80:24",
+    "sura": 80,
+    "ayah": 24,
+    "translation": "Then let mankind look at his food -",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-088",
+    "ref": "Quran 16:69",
+    "sura": 16,
+    "ayah": 69,
+    "translation": "Then eat from all the fruits and follow the ways of your Lord laid down for you.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-089",
+    "ref": "Quran 2:155",
+    "sura": 2,
+    "ayah": 155,
+    "translation": "And We will surely test you with something of fear and hunger and loss of wealth and lives and fruits.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-090",
+    "ref": "Quran 2:156",
+    "sura": 2,
+    "ayah": 156,
+    "translation": "Who, when disaster strikes them, say, 'Indeed we belong to Allah, and indeed to Him we will return.'",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-091",
+    "ref": "Quran 2:157",
+    "sura": 2,
+    "ayah": 157,
+    "translation": "Those are the ones upon whom are blessings from their Lord and mercy. And it is those who are guided.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-092",
+    "ref": "Quran 8:46",
+    "sura": 8,
+    "ayah": 46,
+    "translation": "And obey Allah and His Messenger, and do not dispute and fail and lose your strength; and be patient.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-093",
+    "ref": "Quran 11:115",
+    "sura": 11,
+    "ayah": 115,
+    "translation": "And be patient, for indeed, Allah does not allow to be lost the reward of those who do good.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-094",
+    "ref": "Quran 16:127",
+    "sura": 16,
+    "ayah": 127,
+    "translation": "And be patient, and your patience is not but through Allah.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-095",
+    "ref": "Quran 31:17",
+    "sura": 31,
+    "ayah": 17,
+    "translation": "O my son, establish prayer, enjoin what is right, forbid what is wrong, and be patient over what befalls you.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-096",
+    "ref": "Quran 42:43",
+    "sura": 42,
+    "ayah": 43,
+    "translation": "But whoever is patient and forgives - indeed, that is of the matters of determination.",
+    "moods": [
+      "patience",
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-097",
+    "ref": "Quran 25:75",
+    "sura": 25,
+    "ayah": 75,
+    "translation": "Those will be rewarded with the highest place because they were patient.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-098",
+    "ref": "Quran 7:87",
+    "sura": 7,
+    "ayah": 87,
+    "translation": "So be patient until Allah judges between us, and He is the best of judges.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-099",
+    "ref": "Quran 70:5",
+    "sura": 70,
+    "ayah": 5,
+    "translation": "So be patient with gracious patience.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-100",
+    "ref": "Quran 76:24",
+    "sura": 76,
+    "ayah": 24,
+    "translation": "So be patient for the decision of your Lord and do not obey from among them a sinner or ungrateful one.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-101",
+    "ref": "Quran 90:17",
+    "sura": 90,
+    "ayah": 17,
+    "translation": "And then being among those who believed and advised each other to patience and advised each other to compassion.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-103",
+    "ref": "Quran 52:48",
+    "sura": 52,
+    "ayah": 48,
+    "translation": "And be patient, for the decision of your Lord, for indeed, you are in Our eyes.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-104",
+    "ref": "Quran 68:48",
+    "sura": 68,
+    "ayah": 48,
+    "translation": "So be patient for the decision of your Lord and be not like the companion of the fish.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-105",
+    "ref": "Quran 74:7",
+    "sura": 74,
+    "ayah": 7,
+    "translation": "And for your Lord be patient.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-106",
+    "ref": "Quran 3:146",
+    "sura": 3,
+    "ayah": 146,
+    "translation": "And how many a prophet fought and with him many scholars. But they never lost assurance due to what afflicted them.",
+    "moods": [
+      "patience",
+      "courage"
+    ]
+  },
+{
+  "id": "mv-107",
+  "ref": "Quran 32:24",
+  "sura": 32,
+  "ayah": 24,
+  "translation": "And We made from among them leaders guiding by Our command when they were patient.",
+  "moods": [
+    "patience"
+  ]
+ },
+  {
+    "id": "mv-108",
+    "ref": "Quran 21:85",
+    "sura": 21,
+    "ayah": 85,
+    "translation": "And Ishmael and Idris and Dhul-Kifl; all were of the patient.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-109",
+    "ref": "Quran 37:102",
+    "sura": 37,
+    "ayah": 102,
+    "translation": "O my father, do as you are commanded. You will find me, if Allah wills, of the patient.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-110",
+    "ref": "Quran 12:18",
+    "sura": 12,
+    "ayah": 18,
+    "translation": "And they brought upon his shirt false blood. [Jacob] said, \"Rather, your souls have enticed you to something, so patience is most fitting. And Allah is the one sought for help against that which you describe.\"",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-111",
+    "ref": "Quran 12:83",
+    "sura": 12,
+    "ayah": 83,
+    "translation": "[Jacob] said, \"Rather, your souls have enticed you to something, so patience is most fitting. Perhaps Allah will bring them to me all together. Indeed it is He who is the Knowing, the Wise.\"",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-112",
+    "ref": "Quran 38:44",
+    "sura": 38,
+    "ayah": 44,
+    "translation": "Indeed, We found him patient, an excellent servant. Indeed, he was one who repeatedly turned back to Allah.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-113",
+    "ref": "Quran 20:130",
+    "sura": 20,
+    "ayah": 130,
+    "translation": "So be patient over what they say and exalt [Allah] with praise of your Lord before the rising of the sun and before its setting; and during periods of the night [exalt Him] and at the ends of the day, that you may be satisfied.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-114",
+    "ref": "Quran 50:39",
+    "sura": 50,
+    "ayah": 39,
+    "translation": "So be patient, [O Muhammad], over what they say and exalt [Allah] with praise of your Lord before the rising of the sun and before its setting,",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-115",
+    "ref": "Quran 15:85",
+    "sura": 15,
+    "ayah": 85,
+    "translation": "And We did not create the heavens and earth and that between them except in truth. So overlook with gracious forgiveness.",
+    "moods": [
+      "patience",
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-116",
+    "ref": "Quran 23:111",
+    "sura": 23,
+    "ayah": 111,
+    "translation": "Indeed, I have rewarded them this Day for their patient endurance - that they are the attainers of success.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-118",
+    "ref": "Quran 40:55",
+    "sura": 40,
+    "ayah": 55,
+    "translation": "So be patient; indeed, the promise of Allah is truth.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-119",
+    "ref": "Quran 46:35",
+    "sura": 46,
+    "ayah": 35,
+    "translation": "So be patient, as were those of determination among the messengers, and do not be impatient for them.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-120",
+    "ref": "Quran 73:10",
+    "sura": 73,
+    "ayah": 10,
+    "translation": "And be patient over what they say and avoid them with gracious avoidance.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-121",
+    "ref": "Quran 18:28",
+    "sura": 18,
+    "ayah": 28,
+    "translation": "And keep yourself patient with those who call upon their Lord morning and afternoon.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-122",
+    "ref": "Quran 6:34",
+    "sura": 6,
+    "ayah": 34,
+    "translation": "And certainly were messengers denied before you, but they were patient over the denial and persecution.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-123",
+    "ref": "Quran 14:12",
+    "sura": 14,
+    "ayah": 12,
+    "translation": "And why should we not rely upon Allah while He has guided us to our good ways? And we will surely be patient.",
+    "moods": [
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-125",
+    "ref": "Quran 20:46",
+    "sura": 20,
+    "ayah": 46,
+    "translation": "Allah said, 'Fear not. Indeed, I am with you both; I hear and I see.'",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-126",
+    "ref": "Quran 48:4",
+    "sura": 48,
+    "ayah": 4,
+    "translation": "It is He who sent down tranquillity into the hearts of the believers.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-127",
+    "ref": "Quran 48:18",
+    "sura": 48,
+    "ayah": 18,
+    "translation": "Allah was pleased with the believers when they pledged allegiance to you under the tree, and He knew what was in their hearts, so He sent down tranquillity upon them.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-128",
+    "ref": "Quran 9:26",
+    "sura": 9,
+    "ayah": 26,
+    "translation": "Then Allah sent down His tranquillity upon His Messenger and upon the believers.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-129",
+    "ref": "Quran 9:40",
+    "sura": 9,
+    "ayah": 40,
+    "translation": "If you do not aid the Prophet - Allah has already aided him when those who disbelieved had driven him out. Do not grieve; indeed Allah is with us.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-130",
+    "ref": "Quran 16:32",
+    "sura": 16,
+    "ayah": 32,
+    "translation": "Those whom the angels take in death while they are good, saying, 'Peace be upon you.'",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-131",
+    "ref": "Quran 89:28",
+    "sura": 89,
+    "ayah": 28,
+    "translation": "Return to your Lord, well-pleased and pleasing to Him.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-132",
+    "ref": "Quran 56:26",
+    "sura": 56,
+    "ayah": 26,
+    "translation": "Only a saying: 'Peace, peace.'",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-133",
+    "ref": "Quran 36:58",
+    "sura": 36,
+    "ayah": 58,
+    "translation": "Peace, a word from a Merciful Lord.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-134",
+    "ref": "Quran 97:5",
+    "sura": 97,
+    "ayah": 5,
+    "translation": "Peace it is until the emergence of dawn.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-135",
+    "ref": "Quran 19:47",
+    "sura": 19,
+    "ayah": 47,
+    "translation": "Abraham said, 'Peace will be upon you. I will ask forgiveness of my Lord for you.'",
+    "moods": [
+      "calm",
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-136",
+    "ref": "Quran 6:127",
+    "sura": 6,
+    "ayah": 127,
+    "translation": "For them will be the Home of Peace with their Lord.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-137",
+    "ref": "Quran 10:25",
+    "sura": 10,
+    "ayah": 25,
+    "translation": "And Allah invites to the Home of Peace and guides whom He wills to a straight path.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-138",
+    "ref": "Quran 14:23",
+    "sura": 14,
+    "ayah": 23,
+    "translation": "And those who believed and did righteous deeds will be admitted to gardens beneath which rivers flow, abiding eternally therein by permission of their Lord; and their greeting therein will be, 'Peace!'",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-140",
+    "ref": "Quran 7:46",
+    "sura": 7,
+    "ayah": 46,
+    "translation": "And they will call out, 'Peace be upon you. You have not entered it yet, but you have hope.'",
+    "moods": [
+      "calm",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-141",
+    "ref": "Quran 39:73",
+    "sura": 39,
+    "ayah": 73,
+    "translation": "And those who feared their Lord will be led to Paradise in groups until, when they reach it while its gates have been opened and its keepers say, 'Peace be upon you; you have become pure; so enter it to abide eternally therein.'",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-142",
+    "ref": "Quran 50:34",
+    "sura": 50,
+    "ayah": 34,
+    "translation": "Enter it in peace. This is the Day of Eternity.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-143",
+    "ref": "Quran 15:46",
+    "sura": 15,
+    "ayah": 46,
+    "translation": "Enter it in peace and security.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-144",
+    "ref": "Quran 44:51",
+    "sura": 44,
+    "ayah": 51,
+    "translation": "Indeed, the righteous will be in a secure place.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-145",
+    "ref": "Quran 52:17",
+    "sura": 52,
+    "ayah": 17,
+    "translation": "Indeed, the righteous will be in gardens and pleasure.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-146",
+    "ref": "Quran 78:37",
+    "sura": 78,
+    "ayah": 37,
+    "translation": "A reward from your Lord, a gift accounting.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-147",
+    "ref": "Quran 19:62",
+    "sura": 19,
+    "ayah": 62,
+    "translation": "They will not hear therein any ill speech - only peace - and they will have their provision therein, morning and afternoon.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-148",
+    "ref": "Quran 35:35",
+    "sura": 35,
+    "ayah": 35,
+    "translation": "Who has settled us in the home of duration out of His bounty. There touches us not in it any fatigue, and there touches us not in it weariness of mind.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-149",
+    "ref": "Quran 43:70",
+    "sura": 43,
+    "ayah": 70,
+    "translation": "Enter Paradise, you and your kinds, delighted.",
+    "moods": [
+      "calm",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-150",
+    "ref": "Quran 7:43",
+    "sura": 7,
+    "ayah": 43,
+    "translation": "And We will have removed whatever is within their breasts of resentment, flowing beneath them are rivers. And they will say, 'Praise to Allah.'",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-151",
+    "ref": "Quran 15:47",
+    "sura": 15,
+    "ayah": 47,
+    "translation": "And We will have removed whatever is within their breasts of resentment, being brothers, on thrones facing each other.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-152",
+    "ref": "Quran 7:189",
+    "sura": 7,
+    "ayah": 189,
+    "translation": "It is He who created you from one soul and created from it its mate that he might dwell in tranquillity with her.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-153",
+    "ref": "Quran 30:21",
+    "sura": 30,
+    "ayah": 21,
+    "translation": "And of His signs is that He created for you from yourselves mates that you may find tranquillity in them.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-154",
+    "ref": "Quran 65:2",
+    "sura": 65,
+    "ayah": 2,
+    "translation": "And whoever fears Allah - He will make for him a way out.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-157",
+    "ref": "Quran 22:11",
+    "sura": 22,
+    "ayah": 11,
+    "translation": "And of the people is he who worships Allah on an edge. If he is touched by good, he is reassured by it.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-158",
+    "ref": "Quran 33:3",
+    "sura": 33,
+    "ayah": 3,
+    "translation": "And rely upon Allah; and sufficient is Allah as Disposer of affairs.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-159",
+    "ref": "Quran 4:81",
+    "sura": 4,
+    "ayah": 81,
+    "translation": "And they say, 'We pledge obedience'; but when they leave you, a group of them spend the night determining to do other than what you say. But Allah records what they plan by night. So leave them alone and rely upon Allah. And sufficient is Allah as Disposer of affairs.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-160",
+    "ref": "Quran 64:13",
+    "sura": 64,
+    "ayah": 13,
+    "translation": "Allah - there is no deity except Him. And upon Allah let the believers rely.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-161",
+    "ref": "Quran 58:10",
+    "sura": 58,
+    "ayah": 10,
+    "translation": "Secret conversation is only from Satan that he may grieve those who have believed, but he cannot harm them at all except by permission of Allah.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-162",
+    "ref": "Quran 8:30",
+    "sura": 8,
+    "ayah": 30,
+    "translation": "And they plan, but Allah plans. And Allah is the best of planners.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-163",
+    "ref": "Quran 86:15",
+    "sura": 86,
+    "ayah": 15,
+    "translation": "Indeed, they are planning a plan.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-164",
+    "ref": "Quran 86:16",
+    "sura": 86,
+    "ayah": 16,
+    "translation": "But I am planning a plan.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-165",
+    "ref": "Quran 27:50",
+    "sura": 27,
+    "ayah": 50,
+    "translation": "And they planned a plan, but We planned a plan, while they perceived not.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-166",
+    "ref": "Quran 13:42",
+    "sura": 13,
+    "ayah": 42,
+    "translation": "And those before them had planned, but to Allah belongs the plan entirely.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-167",
+    "ref": "Quran 14:46",
+    "sura": 14,
+    "ayah": 46,
+    "translation": "And they had planned their plan, but with Allah is their plan, even if their plan had been to do away with the mountains.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-168",
+    "ref": "Quran 71:22",
+    "sura": 71,
+    "ayah": 22,
+    "translation": "And they conspired an immense conspiracy.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-169",
+    "ref": "Quran 40:44",
+    "sura": 40,
+    "ayah": 44,
+    "translation": "So you will remember what I [now] say to you, and I entrust my affair to Allah. Indeed, Allah is Seeing of His servants.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-170",
+    "ref": "Quran 3:160",
+    "sura": 3,
+    "ayah": 160,
+    "translation": "If Allah should aid you, no one can overcome you; but if He should forsake you, who is there that can aid you after Him?",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-171",
+    "ref": "Quran 8:62",
+    "sura": 8,
+    "ayah": 62,
+    "translation": "But if they intend to deceive you - then sufficient for you is Allah.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-172",
+    "ref": "Quran 9:129",
+    "sura": 9,
+    "ayah": 129,
+    "translation": "But if they turn away, say, 'Sufficient for me is Allah ; there is no deity except Him. On Him I have relied, and He is the Lord of the Great Throne.'",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-173",
+    "ref": "Quran 25:58",
+    "sura": 25,
+    "ayah": 58,
+    "translation": "And rely upon the Ever-Living who does not die, and exalt Him with His praise.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-174",
+    "ref": "Quran 67:29",
+    "sura": 67,
+    "ayah": 29,
+    "translation": "Say, 'He is the Most Merciful; we have believed in Him, and upon Him we have relied.'",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-175",
+    "ref": "Quran 11:88",
+    "sura": 11,
+    "ayah": 88,
+    "translation": "I only intend reform as much as I am able. And my success is not but through Allah. Upon him I have relied, and to him I return.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-176",
+    "ref": "Quran 12:67",
+    "sura": 12,
+    "ayah": 67,
+    "translation": "And upon Allah let the believers rely.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-177",
+    "ref": "Quran 14:11",
+    "sura": 14,
+    "ayah": 11,
+    "translation": "Their messengers said to them, 'We are only men like you, but Allah confers favor upon whom He wills of His servants. It has never been for us to bring you evidence except by permission of Allah. And upon Allah let the believers rely.'",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-178",
+    "ref": "Quran 58:4",
+    "sura": 58,
+    "ayah": 4,
+    "translation": "And whoever does not find [a slave or cannot afford to free one] - then a fast for two months consecutively before they touch one another. And whoever is unable - then the feeding of sixty poor persons. That is for you to believe in Allah and His Messenger; and those are the limits of Allah .",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-179",
+    "ref": "Quran 60:4",
+    "sura": 60,
+    "ayah": 4,
+    "translation": "Our Lord, upon You we have relied, and to You we have returned, and to You is the destination.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-180",
+    "ref": "Quran 39:38",
+    "sura": 39,
+    "ayah": 38,
+    "translation": "And if you asked them, 'Who created the heavens and earth?' they would surely say, 'Allah.' Say, 'Then have you considered what you invoke besides Allah? If Allah intended for me some harm, are they removers of His harm; or if He intended for me some mercy, are they withholders of His mercy?' Say, 'Sufficient for me is Allah; upon Him [alone] rely the [wise] who are trusting.'",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-181",
+    "ref": "Quran 42:10",
+    "sura": 42,
+    "ayah": 10,
+    "translation": "And in anything over which you disagree - its ruling is [to be referred] to Allah. [Say], 'That is Allah, my Lord; upon Him I have relied, and to Him I turn back.'",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-182",
+    "ref": "Quran 11:56",
+    "sura": 11,
+    "ayah": 56,
+    "translation": "Indeed, I have relied upon Allah, my Lord and your Lord. There is no creature but that He holds its forelock. Indeed, my Lord is on a path [that is] straight.",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-183",
+    "ref": "Quran 10:71",
+    "sura": 10,
+    "ayah": 71,
+    "translation": "And recite to them the news of Noah, when he said to his people, 'O my people, if my residence and my reminding of the signs of Allah has become burdensome upon you - then I have relied upon Allah. So resolve upon your plan and [call upon] your associates. Then let not your plan be obscure to you. Then carry it out upon me and do not give me respite.'",
+    "moods": [
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-185",
+    "ref": "Quran 10:65",
+    "sura": 10,
+    "ayah": 65,
+    "translation": "And let not their speech grieve you. Indeed, honor belongs to Allah entirely.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-186",
+    "ref": "Quran 36:76",
+    "sura": 36,
+    "ayah": 76,
+    "translation": "So let not their speech grieve you. Indeed, We know what they conceal and what they declare.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-187",
+    "ref": "Quran 12:86",
+    "sura": 12,
+    "ayah": 86,
+    "translation": "He said, 'I only complain of my suffering and my grief to Allah, and I know from Allah that which you do not know.'",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-188",
+    "ref": "Quran 93:3",
+    "sura": 93,
+    "ayah": 3,
+    "translation": "Your Lord has not taken leave of you, nor has He detested you.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-189",
+    "ref": "Quran 93:5",
+    "sura": 93,
+    "ayah": 5,
+    "translation": "And your Lord is going to give you, and you will be satisfied.",
+    "moods": [
+      "sad",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-190",
+    "ref": "Quran 2:38",
+    "sura": 2,
+    "ayah": 38,
+    "translation": "We said, 'Go down from it, all of you. And when guidance comes to you from Me, whoever follows My guidance - there will be no fear concerning them, nor will they grieve.'",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-192",
+    "ref": "Quran 2:112",
+    "sura": 2,
+    "ayah": 112,
+    "translation": "Yes, whoever submits his face in Islam to Allah while being a doer of good will have his reward with his Lord. And no fear will there be concerning them, nor will they grieve.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-193",
+    "ref": "Quran 3:170",
+    "sura": 3,
+    "ayah": 170,
+    "translation": "Rejoicing in what Allah has bestowed upon them of His bounty, and they receive good tidings about those [to be martyred] after them who have not yet joined them - that there will be no fear concerning them, nor will they grieve.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-194",
+    "ref": "Quran 5:69",
+    "sura": 5,
+    "ayah": 69,
+    "translation": "Indeed, those who have believed [in Prophet Muhammad] and those [before] who were Jews or Sabeans or Christians - those who believed in Allah and the Last Day and did righteousness - no fear will there be concerning them, nor will they grieve.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-195",
+    "ref": "Quran 7:35",
+    "sura": 7,
+    "ayah": 35,
+    "translation": "O children of Adam, if there come to you messengers from among you relating to you My verses, then whoever fears Allah and reforms - there will be no fear concerning them, nor will they grieve.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-196",
+    "ref": "Quran 10:62",
+    "sura": 10,
+    "ayah": 62,
+    "translation": "Unquestionably, [for] the allies of Allah there will be no fear concerning them, nor will they grieve.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-198",
+    "ref": "Quran 43:68",
+    "sura": 43,
+    "ayah": 68,
+    "translation": "[Allah will say], 'O My servants, no fear will there be concerning you this Day, nor will you grieve.'",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-199",
+    "ref": "Quran 21:103",
+    "sura": 21,
+    "ayah": 103,
+    "translation": "The great terror will not grieve them, and the angels will meet them, [saying], 'This is your Day which you were promised.'",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-200",
+    "ref": "Quran 27:70",
+    "sura": 27,
+    "ayah": 70,
+    "translation": "And do not grieve over them or be in distress from what they conspire.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-202",
+    "ref": "Quran 12:69",
+    "sura": 12,
+    "ayah": 69,
+    "translation": "And when they entered upon Joseph, he took his brother to himself; he said, 'Indeed, I am your brother, so do not despair over what they used to do.'",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-204",
+    "ref": "Quran 15:56",
+    "sura": 15,
+    "ayah": 56,
+    "translation": "He said, 'And who despairs of the mercy of his Lord except for those astray?'",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-205",
+    "ref": "Quran 41:49",
+    "sura": 41,
+    "ayah": 49,
+    "translation": "Man is not weary of supplication for good [things], but if evil touches him, he is hopeless and despairing.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-207",
+    "ref": "Quran 30:36",
+    "sura": 30,
+    "ayah": 36,
+    "translation": "And when We give people a taste of mercy, they rejoice therein, but when evil afflicts them for what their hands have put forth, immediately they despair.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-208",
+    "ref": "Quran 42:28",
+    "sura": 42,
+    "ayah": 28,
+    "translation": "And it is He who sends down the rain after they had despaired and spreads His mercy.",
+    "moods": [
+      "sad",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-210",
+    "ref": "Quran 29:23",
+    "sura": 29,
+    "ayah": 23,
+    "translation": "But those who disbelieve in the signs of Allah and the meeting with Him - those have despaired of My mercy, and they will have a painful punishment.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-211",
+    "ref": "Quran 60:13",
+    "sura": 60,
+    "ayah": 13,
+    "translation": "O you who have believed, do not make allies of a people with whom Allah has become angry. They have despaired of the Hereafter just as the disbelievers have despaired of [meeting] the companions of the graves.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-212",
+    "ref": "Quran 35:8",
+    "sura": 35,
+    "ayah": 8,
+    "translation": "Then is one to whom the evil of his deed has been made attractive so he considers it good [like one rightly guided]? For indeed, Allah sends astray whom He wills and guides whom He wills. So do not let yourself perish over them in regret. Indeed, Allah is Knowing of what they do.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-213",
+    "ref": "Quran 18:6",
+    "sura": 18,
+    "ayah": 6,
+    "translation": "Then you would perhaps leave yourself with grief, following after them, if they do not believe in this message.",
+    "moods": [
+      "sad"
+    ]
+  },
+  {
+    "id": "mv-214",
+    "ref": "Quran 16:128",
+    "sura": 16,
+    "ayah": 128,
+    "translation": "Indeed, Allah is with those who fear Him and those who are doers of good.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-215",
+    "ref": "Quran 2:150",
+    "sura": 2,
+    "ayah": 150,
+    "translation": "So fear them not but fear Me. And [it is] so I may complete My favor upon you.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-216",
+    "ref": "Quran 3:175",
+    "sura": 3,
+    "ayah": 175,
+    "translation": "That is only Satan who frightens you of his supporters. So fear them not, but fear Me, if you are believers.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-217",
+    "ref": "Quran 5:54",
+    "sura": 5,
+    "ayah": 54,
+    "translation": "O you who have believed, whoever of you should revert from his religion - Allah will bring forth a people He will love and who will love Him [who are] humble toward the believers, powerful against the disbelievers.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-218",
+    "ref": "Quran 8:65",
+    "sura": 8,
+    "ayah": 65,
+    "translation": "O Prophet, urge the believers to battle. If there are among you twenty [who are] steadfast, they will overcome two hundred.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-219",
+    "ref": "Quran 8:66",
+    "sura": 8,
+    "ayah": 66,
+    "translation": "Now, Allah has lightened [the hardship] for you, and He knows that among you is weakness. So if there are from you one hundred [who are] steadfast, they will overcome two hundred.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-220",
+    "ref": "Quran 47:35",
+    "sura": 47,
+    "ayah": 35,
+    "translation": "So do not weaken and call for peace while you are superior; and Allah is with you and will never deprive you of your deeds.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-221",
+    "ref": "Quran 61:4",
+    "sura": 61,
+    "ayah": 4,
+    "translation": "Indeed, Allah loves those who fight in His cause in a row as though they are a [single] structure joined firmly.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-222",
+    "ref": "Quran 4:104",
+    "sura": 4,
+    "ayah": 104,
+    "translation": "And do not weaken in pursuit of the enemy. If you should be suffering - so are they suffering as you are suffering, but you expect from Allah that which they expect not.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-223",
+    "ref": "Quran 3:200",
+    "sura": 3,
+    "ayah": 200,
+    "translation": "O you who have believed, persevere and endure and remain stationed and fear Allah that you may be successful.",
+    "moods": [
+      "courage",
+      "patience"
+    ]
+  },
+  {
+    "id": "mv-224",
+    "ref": "Quran 2:249",
+    "sura": 2,
+    "ayah": 249,
+    "translation": "And when they went forth to [face] Goliath and his soldiers, they said, 'Our Lord, pour upon us patience and plant firmly our feet and give us victory over the disbelieving people.'",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-225",
+    "ref": "Quran 2:250",
+    "sura": 2,
+    "ayah": 250,
+    "translation": "So they defeated them by permission of Allah, and David killed Goliath, and Allah gave him the kingship and prophethood and taught him from that which He willed.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-226",
+    "ref": "Quran 22:39",
+    "sura": 22,
+    "ayah": 39,
+    "translation": "Permission [to fight] has been given to those who are being fought, because they were wronged. And indeed, Allah is competent to give them victory.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-227",
+    "ref": "Quran 22:40",
+    "sura": 22,
+    "ayah": 40,
+    "translation": "[They are] those who have been evicted from their homes without right - only because they say, 'Our Lord is Allah.'",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-228",
+    "ref": "Quran 9:14",
+    "sura": 9,
+    "ayah": 14,
+    "translation": "Fight them; Allah will punish them by your hands and will disgrace them and give you victory over them and satisfy the breasts of a believing people.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-229",
+    "ref": "Quran 48:29",
+    "sura": 48,
+    "ayah": 29,
+    "translation": "Muhammad is the Messenger of Allah; and those with him are forceful against the disbelievers, merciful among themselves.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-230",
+    "ref": "Quran 59:2",
+    "sura": 59,
+    "ayah": 2,
+    "translation": "It is He who expelled the ones who disbelieved among the People of the Scripture from their homes at the first gathering. You did not think they would leave, and they thought that their fortresses would protect them from Allah; but Allah came upon them from where they had not expected, and He cast terror into their hearts.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-231",
+    "ref": "Quran 3:122",
+    "sura": 3,
+    "ayah": 122,
+    "translation": "When two parties among you were about to lose courage, but Allah was their ally. And upon Allah the believers should rely.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-232",
+    "ref": "Quran 3:123",
+    "sura": 3,
+    "ayah": 123,
+    "translation": "And Allah had already given you victory at Badr while you were few in number. Then fear Allah; perhaps you will be grateful.",
+    "moods": [
+      "courage",
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-233",
+    "ref": "Quran 8:9",
+    "sura": 8,
+    "ayah": 9,
+    "translation": "[Remember] when you asked help of your Lord, and He answered you, 'Indeed, I will reinforce you with a thousand from the angels, following one another.'",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-234",
+    "ref": "Quran 8:10",
+    "sura": 8,
+    "ayah": 10,
+    "translation": "And Allah made it not but good tidings and so that your hearts would be assured thereby. And victory is not but from Allah. Indeed, Allah is Exalted in Might and Wise.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-235",
+    "ref": "Quran 33:22",
+    "sura": 33,
+    "ayah": 22,
+    "translation": "And when the believers saw the companies, they said, 'This is what Allah and His Messenger had promised us, and Allah and His Messenger spoke the truth.' And it increased them only in faith and acceptance.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-236",
+    "ref": "Quran 33:25",
+    "sura": 33,
+    "ayah": 25,
+    "translation": "And Allah repelled those who disbelieved, in their rage, not having obtained any good. And sufficient was Allah for the believers in battle, and ever is Allah Powerful and Exalted in Might.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-237",
+    "ref": "Quran 4:76",
+    "sura": 4,
+    "ayah": 76,
+    "translation": "Those who believe fight in the cause of Allah, and those who disbelieve fight in the cause of Taghut. So fight against the allies of Satan. Indeed, the plot of Satan has ever been weak.",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-239",
+    "ref": "Quran 2:199",
+    "sura": 2,
+    "ayah": 199,
+    "translation": "Then depart from the place from where [all] the people depart and ask forgiveness of Allah. Indeed, Allah is Forgiving and Merciful.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-240",
+    "ref": "Quran 3:135",
+    "sura": 3,
+    "ayah": 135,
+    "translation": "And those who, when they commit an immorality or wrong themselves [by transgression], remember Allah and seek forgiveness for their sins - and who can forgive sins except Allah?",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-241",
+    "ref": "Quran 4:106",
+    "sura": 4,
+    "ayah": 106,
+    "translation": "And seek forgiveness of Allah. Indeed, Allah is ever Forgiving and Merciful.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-242",
+    "ref": "Quran 24:22",
+    "sura": 24,
+    "ayah": 22,
+    "translation": "And let them pardon and overlook. Would you not like that Allah should forgive you? And Allah is Forgiving and Merciful.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-243",
+    "ref": "Quran 42:40",
+    "sura": 42,
+    "ayah": 40,
+    "translation": "The recompense for an evil is an evil like thereof; but whoever forgives and makes reconciliation, his reward is with Allah.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-244",
+    "ref": "Quran 64:14",
+    "sura": 64,
+    "ayah": 14,
+    "translation": "O you who have believed, indeed, among your wives and your children are enemies to you, so beware of them. But if you pardon and overlook and forgive - then indeed, Allah is Forgiving and Merciful.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-245",
+    "ref": "Quran 7:199",
+    "sura": 7,
+    "ayah": 199,
+    "translation": "Take what is given freely, enjoin what is good, and turn away from the ignorant.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-246",
+    "ref": "Quran 5:13",
+    "sura": 5,
+    "ayah": 13,
+    "translation": "So for their breaking of the covenant We cursed them and made their hearts hardened. They distort words from their [proper] places and have forgotten a portion of that of which they were reminded. And you will still observe deceit among them, except a few of them. But pardon them and overlook [their misdeeds]. Indeed, Allah loves the doers of good.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-247",
+    "ref": "Quran 5:101",
+    "sura": 5,
+    "ayah": 101,
+    "translation": "O you who have believed, do not ask about things which, if they are shown to you, will distress you. But if you ask about them while the Qur'an is being revealed, they will be shown to you. Allah has pardoned that which is past; and Allah is Forgiving and Forbearing.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-248",
+    "ref": "Quran 8:33",
+    "sura": 8,
+    "ayah": 33,
+    "translation": "But Allah would not punish them while you, [O Muhammad], are among them, and Allah would not punish them while they seek forgiveness.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-249",
+    "ref": "Quran 11:90",
+    "sura": 11,
+    "ayah": 90,
+    "translation": "And ask forgiveness of your Lord and then repent to Him. Indeed, my Lord is Merciful and Affectionate.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-250",
+    "ref": "Quran 110:3",
+    "sura": 110,
+    "ayah": 3,
+    "translation": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-251",
+    "ref": "Quran 71:10",
+    "sura": 71,
+    "ayah": 10,
+    "translation": "And said, 'Ask forgiveness of your Lord. Indeed, He is ever a Perpetual Forgiver.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-252",
+    "ref": "Quran 4:43",
+    "sura": 4,
+    "ayah": 43,
+    "translation": "O you who have believed, do not approach prayer while you are intoxicated until you know what you are saying or in a state of janabah, except those passing through [a place of prayer], until you have washed [your whole body]. And if you are ill or on a journey or one of you comes from the place of relieving himself or you have contacted women and do not find water, then seek clean earth and wipe over your faces and your hands [with it]. Indeed, Allah is ever Pardoning and Forgiving.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-253",
+    "ref": "Quran 2:173",
+    "sura": 2,
+    "ayah": 173,
+    "translation": "He has only forbidden to you dead animals, blood, the flesh of swine, and that which has been dedicated to other than Allah. But whoever is forced [by necessity], neither desiring [it] nor transgressing [its limit], there is no sin upon him. Indeed, Allah is Forgiving and Merciful.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-254",
+    "ref": "Quran 2:182",
+    "sura": 2,
+    "ayah": 182,
+    "translation": "But whoever fears from a testator some error or sin and corrects that which is between them, there is no sin upon him. Indeed, Allah is Forgiving and Merciful.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-255",
+    "ref": "Quran 2:192",
+    "sura": 2,
+    "ayah": 192,
+    "translation": "And if they cease, then indeed, Allah is Forgiving and Merciful.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-256",
+    "ref": "Quran 2:218",
+    "sura": 2,
+    "ayah": 218,
+    "translation": "Indeed, those who have believed and those who have emigrated and fought in the cause of Allah - those expect the mercy of Allah . And Allah is Forgiving and Merciful.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-257",
+    "ref": "Quran 2:226",
+    "sura": 2,
+    "ayah": 226,
+    "translation": "For those who swear not to have sexual relations with their wives is a waiting time of four months; but if they return [to normal relations] - then indeed, Allah is Forgiving and Merciful.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-258",
+    "ref": "Quran 3:31",
+    "sura": 3,
+    "ayah": 31,
+    "translation": "Say, [O Muhammad], 'If you should love Allah , then follow me, [so] Allah will love you and forgive you your sins. And Allah is Forgiving and Merciful.'",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-259",
+    "ref": "Quran 3:89",
+    "sura": 3,
+    "ayah": 89,
+    "translation": "Except for those who repent after that and correct themselves. For indeed, Allah is Forgiving and Merciful.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-260",
+    "ref": "Quran 3:129",
+    "sura": 3,
+    "ayah": 129,
+    "translation": "And to Allah belongs whatever is in the heavens and whatever is on the earth. He forgives whom He wills and punishes whom He wills. And Allah is Forgiving and Merciful.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-261",
+    "ref": "Quran 3:155",
+    "sura": 3,
+    "ayah": 155,
+    "translation": "Indeed, those of you who turned back on the day the two armies met, it was Satan who caused them to slip because of some [fault] they had earned. But Allah has already forgiven them. Indeed, Allah is Forgiving and Forbearing.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-262",
+    "ref": "Quran 4:23",
+    "sura": 4,
+    "ayah": 23,
+    "translation": "Prohibited to you [for marriage] are your mothers, your daughters, your sisters, your father's sisters, your mother's sisters, your brother's daughters, your sister's daughters, your [milk] mothers who nursed you, your sisters through nursing, your wives' mothers, and your step-daughters under your guardianship [born] of your wives unto whom you have gone in. But if you have not gone in unto them, there is no sin upon you. And [also prohibited are] the wives of your sons who are from your [own] loins, and that you take [in marriage] two sisters simultaneously, except for what has already occurred. Indeed, Allah is ever Forgiving and Merciful.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-263",
+    "ref": "Quran 4:25",
+    "sura": 4,
+    "ayah": 25,
+    "translation": "And whoever among you cannot [find] the means to marry free, believing women, then [he may marry] from those whom your right hands possess of believing slave girls. And Allah is most knowing about your faith. You [believers] are of one another. So marry them with the permission of their people and give them their due compensation according to what is acceptable. [They should be] chaste, neither [of] those who commit unlawful intercourse randomly nor those who take [secret] lovers. But once they are sheltered in marriage, if they should commit adultery, then for them is half the punishment for free [unmarried] women. This [allowance] is for him among you who fears sin, but to be patient is better for you. And Allah is Forgiving and Merciful.",
+    "moods": [
+      "forgiveness"
+    ]
+  },
+  {
+    "id": "mv-264",
+    "ref": "Quran 18:46",
+    "sura": 18,
+    "ayah": 46,
+    "translation": "Wealth and children are [but] adornment of the worldly life. But the enduring good deeds are better to your Lord for reward.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-265",
+    "ref": "Quran 57:20",
+    "sura": 57,
+    "ayah": 20,
+    "translation": "Know that the life of this world is but amusement and diversion and adornment and boasting to one another.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-266",
+    "ref": "Quran 6:32",
+    "sura": 6,
+    "ayah": 32,
+    "translation": "And the worldly life is not but amusement and diversion; but the home of the Hereafter is best for those who fear Allah.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-267",
+    "ref": "Quran 47:36",
+    "sura": 47,
+    "ayah": 36,
+    "translation": "The worldly life is only amusement and diversion. And if you believe and fear Allah, He will give you your rewards.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-268",
+    "ref": "Quran 29:64",
+    "sura": 29,
+    "ayah": 64,
+    "translation": "And this worldly life is not but diversion and amusement. And indeed, the home of the Hereafter - that is the [eternal] life.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-269",
+    "ref": "Quran 3:14",
+    "sura": 3,
+    "ayah": 14,
+    "translation": "Beautified for people is the love of that which they desire - of women and sons, heaped-up sums of gold and silver, fine branded horses, and cattle and tilled land. That is the enjoyment of worldly life, but Allah has with Him the best return.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-270",
+    "ref": "Quran 4:77",
+    "sura": 4,
+    "ayah": 77,
+    "translation": "Have you not seen those who were told, 'Restrain your hands [from fighting] and establish prayer and give zakah'? But then when fighting was ordained for them, at once a party of them feared men as they fear Allah or with [even] greater fear. They said, 'Our Lord, why have You decreed upon us fighting? If only You had postponed [it for] us for a short time.' Say, The enjoyment of this world is little, and the Hereafter is better for he who fears Allah.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-271",
+    "ref": "Quran 9:38",
+    "sura": 9,
+    "ayah": 38,
+    "translation": "O you who have believed, what is [the matter] with you that, when you are told to go forth in the cause of Allah, you adhere heavily to the earth? Are you satisfied with the life of this world rather than the Hereafter? But what is the enjoyment of worldly life compared to the Hereafter except a [very] little.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-272",
+    "ref": "Quran 13:26",
+    "sura": 13,
+    "ayah": 26,
+    "translation": "Allah extends provision for whom He wills and restricts [it]. And they rejoice in the worldly life, while the worldly life is not, compared to the Hereafter, except [brief] enjoyment.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-273",
+    "ref": "Quran 40:39",
+    "sura": 40,
+    "ayah": 39,
+    "translation": "O my people, this worldly life is only [temporary] enjoyment, and indeed, the Hereafter - that is the home of [permanent] settlement.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-274",
+    "ref": "Quran 28:60",
+    "sura": 28,
+    "ayah": 60,
+    "translation": "And whatever thing you [people] have been given - it is [only for] the enjoyment of worldly life and its adornment. And what is with Allah is better and more lasting; so will you not use reason?",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-275",
+    "ref": "Quran 42:20",
+    "sura": 42,
+    "ayah": 20,
+    "translation": "Whoever desires the harvest of the Hereafter - We increase for him in his harvest. And whoever desires the harvest of this world - We give him thereof, but there is not for him in the Hereafter any share.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-276",
+    "ref": "Quran 17:18",
+    "sura": 17,
+    "ayah": 18,
+    "translation": "Whoever should desire the immediate - We hasten for him from it what We will to whom We intend. Then We have made for him Hell, which he will [enter to] burn, censured and banished.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-277",
+    "ref": "Quran 17:19",
+    "sura": 17,
+    "ayah": 19,
+    "translation": "But whoever desires the Hereafter and exerts the effort due to it while he is a believer - it is those whose effort is ever appreciated [by Allah].",
+    "moods": [
+      "demotivated",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-278",
+    "ref": "Quran 75:20",
+    "sura": 75,
+    "ayah": 20,
+    "translation": "No! But you love the immediate.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-279",
+    "ref": "Quran 75:21",
+    "sura": 75,
+    "ayah": 21,
+    "translation": "And leave the Hereafter.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-280",
+    "ref": "Quran 76:27",
+    "sura": 76,
+    "ayah": 27,
+    "translation": "Indeed, these [disbelievers] love the immediate and leave behind them a grave Day.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-281",
+    "ref": "Quran 87:16",
+    "sura": 87,
+    "ayah": 16,
+    "translation": "But you prefer the worldly life,",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-282",
+    "ref": "Quran 87:17",
+    "sura": 87,
+    "ayah": 17,
+    "translation": "While the Hereafter is better and more enduring.",
+    "moods": [
+      "demotivated",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-283",
+    "ref": "Quran 102:1",
+    "sura": 102,
+    "ayah": 1,
+    "translation": "Competition in [worldly] increase diverts you",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-284",
+    "ref": "Quran 102:2",
+    "sura": 102,
+    "ayah": 2,
+    "translation": "Until you visit the graveyards.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-285",
+    "ref": "Quran 57:23",
+    "sura": 57,
+    "ayah": 23,
+    "translation": "In order that you not despair over what has eluded you and not exult [in pride] over what He has given you.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+{
+  "id": "mv-286",
+  "ref": "Quran 3:152",
+  "sura": 3,
+  "ayah": 152,
+  "translation": "And Allah would certainly have fulfilled His promise to you when you were killing the enemy by His permission until [the moment] when you lost courage and fell to disputing about the order [given by the Prophet] and disobeyed after He had shown you that which you love. Among you are some who desire this world, and among you are some who desire the Hereafter.",
+  "moods": [
+    "demotivated"
+  ]
+ },
+  {
+    "id": "mv-287",
+    "ref": "Quran 4:74",
+    "sura": 4,
+    "ayah": 74,
+    "translation": "So let those fight in the cause of Allah who sell the life of this world for the Hereafter. And he who fights in the cause of Allah and is killed or achieves victory - We will bestow upon him a great reward.",
+    "moods": [
+      "demotivated",
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-288",
+    "ref": "Quran 11:15",
+    "sura": 11,
+    "ayah": 15,
+    "translation": "Whoever desires the life of this world and its adornments - We fully repay them for their deeds therein, and they therein will not be deprived.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-289",
+    "ref": "Quran 11:16",
+    "sura": 11,
+    "ayah": 16,
+    "translation": "Those are the ones for whom there is not in the Hereafter but the Fire. And lost is what they did therein, and worthless is what they used to do.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-290",
+    "ref": "Quran 14:3",
+    "sura": 14,
+    "ayah": 3,
+    "translation": "The ones who prefer the worldly life over the Hereafter and avert [people] from the way of Allah, seeking to make it [seem] deviant. Those are in extreme error.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-291",
+    "ref": "Quran 16:30",
+    "sura": 16,
+    "ayah": 30,
+    "translation": "And it will be said to those who feared Allah, 'What did your Lord send down?' They will say, '[That which is] good.' For those who do good in this world is good; and the home of the Hereafter is better. And how excellent is the home of the righteous -",
+    "moods": [
+      "demotivated",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-292",
+    "ref": "Quran 20:131",
+    "sura": 20,
+    "ayah": 131,
+    "translation": "And do not extend your eyes toward that by which We have given enjoyment to [some] categories of them, [its being but] the splendor of worldly life by which We test them. And the provision of your Lord is better and more enduring.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-293",
+    "ref": "Quran 43:35",
+    "sura": 43,
+    "ayah": 35,
+    "translation": "And gold ornament. But all that is not but the enjoyment of worldly life. And the Hereafter with your Lord is for the righteous.",
+    "moods": [
+      "demotivated"
+    ]
+  },
+  {
+    "id": "mv-294",
+    "ref": "Quran 51:50",
+    "sura": 51,
+    "ayah": 50,
+    "translation": "So flee to Allah. Indeed, I am to you from Him a clear warner.",
+    "moods": [
+      "stress",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-296",
+    "ref": "Quran 5:23",
+    "sura": 5,
+    "ayah": 23,
+    "translation": "Said two men from those who feared [Allah] upon whom Allah had bestowed favor, 'Enter upon them through the gate. When you have entered it, you will be predominant. And upon Allah rely, if you should be believers.'",
+    "moods": [
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-297",
+    "ref": "Quran 61:13",
+    "sura": 61,
+    "ayah": 13,
+    "translation": "And [you will obtain] another [favor] that you love - victory from Allah and an imminent conquest; and give good tidings to the believers.",
+    "moods": [
+      "hopeful",
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-298",
+    "ref": "Quran 110:1",
+    "sura": 110,
+    "ayah": 1,
+    "translation": "When the victory of Allah has come and the conquest,",
+    "moods": [
+      "hopeful",
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-299",
+    "ref": "Quran 110:2",
+    "sura": 110,
+    "ayah": 2,
+    "translation": "And you see the people entering into the religion of Allah in multitudes,",
+    "moods": [
+      "hopeful",
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-300",
+    "ref": "Quran 48:1",
+    "sura": 48,
+    "ayah": 1,
+    "translation": "Indeed, We have given you a clear conquest",
+    "moods": [
+      "hopeful",
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-301",
+    "ref": "Quran 48:2",
+    "sura": 48,
+    "ayah": 2,
+    "translation": "That Allah may forgive for you what preceded of your sin and what will follow and complete His favor upon you and guide you to a straight path",
+    "moods": [
+      "forgiveness",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-302",
+    "ref": "Quran 48:3",
+    "sura": 48,
+    "ayah": 3,
+    "translation": "And [that] Allah may aid you with a mighty victory.",
+    "moods": [
+      "hopeful",
+      "courage"
+    ]
+  },
+  {
+    "id": "mv-303",
+    "ref": "Quran 5:3",
+    "sura": 5,
+    "ayah": 3,
+    "translation": "This day I have perfected for you your religion and completed My favor upon you and have approved for you Islam as religion.",
+    "moods": [
+      "grateful",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-304",
+    "ref": "Quran 62:4",
+    "sura": 62,
+    "ayah": 4,
+    "translation": "That is the bounty of Allah, which He gives to whom He wills, and Allah is the possessor of great bounty.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-305",
+    "ref": "Quran 57:29",
+    "sura": 57,
+    "ayah": 29,
+    "translation": "That is so the People of the Scripture may know that they are not able [to obtain] anything from the bounty of Allah and that [all] bounty is in the hand of Allah; He gives it to whom He wills. And Allah is the possessor of great bounty.",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-306",
+    "ref": "Quran 4:173",
+    "sura": 4,
+    "ayah": 173,
+    "translation": "But as for those who believed and did righteous deeds, He will give them their rewards in full and grant them extra from His bounty. But as for those who disdained and were arrogant, He will punish them with a painful punishment, and they will not find for themselves besides Allah any protector or helper.",
+    "moods": [
+      "hopeful",
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-307",
+    "ref": "Quran 24:35",
+    "sura": 24,
+    "ayah": 35,
+    "translation": "Allah is the light of the heavens and the earth.",
+    "moods": [
+      "calm",
+      "hopeful"
+    ]
+  },
+  {
+    "id": "mv-308",
+    "ref": "Quran 2:255",
+    "sura": 2,
+    "ayah": 255,
+    "translation": "Allah - there is no deity except Him, the Ever-Living, the Sustainer of existence.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-309",
+    "ref": "Quran 59:23",
+    "sura": 59,
+    "ayah": 23,
+    "translation": "He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Perfection, the Bestower of Faith, the Overseer, the Exalted in Might, the Compeller, the Superior.",
+    "moods": [
+      "calm",
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-310",
+    "ref": "Quran 59:24",
+    "sura": 59,
+    "ayah": 24,
+    "translation": "He is Allah, the Creator, the Inventor, the Fashioner; to Him belong the best names.",
+    "moods": [
+      "grateful",
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-311",
+    "ref": "Quran 112:1",
+    "sura": 112,
+    "ayah": 1,
+    "translation": "Say, 'He is Allah, [who is] One,",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-312",
+    "ref": "Quran 112:2",
+    "sura": 112,
+    "ayah": 2,
+    "translation": "Allah, the Eternal Refuge.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-313",
+    "ref": "Quran 113:1",
+    "sura": 113,
+    "ayah": 1,
+    "translation": "Say, 'I seek refuge in the Lord of daybreak",
+    "moods": [
+      "calm",
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-314",
+    "ref": "Quran 114:1",
+    "sura": 114,
+    "ayah": 1,
+    "translation": "Say, 'I seek refuge in the Lord of mankind,",
+    "moods": [
+      "calm",
+      "stress"
+    ]
+  },
+  {
+    "id": "mv-315",
+    "ref": "Quran 114:2",
+    "sura": 114,
+    "ayah": 2,
+    "translation": "The Sovereign of mankind.",
+    "moods": [
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-316",
+    "ref": "Quran 1:2",
+    "sura": 1,
+    "ayah": 2,
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "moods": [
+      "grateful"
+    ]
+  },
+  {
+    "id": "mv-317",
+    "ref": "Quran 1:3",
+    "sura": 1,
+    "ayah": 3,
+    "translation": "The Entirely Merciful, the Especially Merciful,",
+    "moods": [
+      "hopeful",
+      "calm"
+    ]
+  },
+  {
+    "id": "mv-318",
+    "ref": "Quran 1:5",
+    "sura": 1,
+    "ayah": 5,
+    "translation": "It is You we worship and You we ask for help.",
+    "moods": [
+      "hopeful",
+      "stress"
+    ]
+  }
+]
