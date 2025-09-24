@@ -5,8 +5,7 @@ import HeartIcon from './icons/HeartIcon';
 import RefreshIcon from './icons/RefreshIcon';
 import ShareIcon from './icons/ShareIcon';
 import StarIcon from './icons/StarIcon';
-import MoodVerseLogo from './icons/MoodVerseLogo';
-import { moodPalettes } from './moodPalettes';
+import MosqueIcon from './icons/MosqueIcon';
 
 interface VerseDisplayProps {
   verse: Verse | null;
@@ -17,10 +16,10 @@ interface VerseDisplayProps {
   onShare: (element: HTMLElement | null, verse: Verse | null) => void;
   onShowCitation: (verse: Verse) => void;
   title: string;
-  selectedMood: string | null;
+  selectedMood: string | null; // Kept for title consistency, but not for styling
 }
 
-const VerseDisplay: React.FC<VerseDisplayProps> = ({ verse, onCopy, isFavorite, onToggleFavorite, onRefresh, onShare, onShowCitation, title, selectedMood }) => {
+const VerseDisplay: React.FC<VerseDisplayProps> = ({ verse, onCopy, isFavorite, onToggleFavorite, onRefresh, onShare, onShowCitation, title }) => {
   const cardRef = useRef<HTMLDivElement>(null);
 
   if (!verse) {
@@ -30,48 +29,46 @@ const VerseDisplay: React.FC<VerseDisplayProps> = ({ verse, onCopy, isFavorite, 
       </div>
     );
   }
-
-  const paletteKey = selectedMood || (verse.moods && verse.moods[0]) || 'demotivated';
-  const palette = moodPalettes[paletteKey] || moodPalettes.demotivated;
-
-  const backgroundStyle = { 
-    backgroundImage: `${palette.patternUrl}, ${palette.gradient}` 
-  };
   
-  const favoriteColorClass = isFavorite ? 'text-red-500' : 'text-inherit';
+  const backgroundStyle = {
+    background: 'radial-gradient(circle at 50% 50%, #3F431D 0%, #14140F 100%)',
+  };
 
   return (
-    <div className="animate-card-enter w-full px-4 max-w-xl mx-auto">
-       <div 
-          ref={cardRef}
-          className="rounded-3xl p-6 relative overflow-hidden flex flex-col justify-between min-h-[400px] md:min-h-[450px] shadow-lg"
-          style={backgroundStyle}
-        >
-        
-        <header className="flex items-center justify-between opacity-80">
-          <div className={`flex items-center gap-2 ${palette.textColor}`}>
-            <StarIcon className="w-4 h-4" />
-            <span className="font-semibold text-sm">{title}</span>
+    <div className="animate-card-enter w-full px-4">
+      <div 
+        ref={cardRef}
+        className="rounded-3xl p-6 relative overflow-hidden flex flex-col justify-between aspect-[3/4] text-white/90 shadow-2xl max-w-md mx-auto"
+        style={backgroundStyle}
+      >
+        <header className="flex items-center justify-between">
+          <div className="flex items-center gap-2 text-white/80">
+            <StarIcon className="w-5 h-5" />
+            <span className="font-medium">{title}</span>
           </div>
-          <MoodVerseLogo className={`w-6 h-6 ${palette.logoColor}`} />
+          <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center backdrop-blur-sm ring-1 ring-white/10">
+            <MosqueIcon className="w-7 h-7" />
+          </div>
         </header>
 
-        <div className="flex-grow flex flex-col items-center justify-center text-center -mt-8">
-            <blockquote className="relative z-10">
-                <p className={`font-serif text-3xl md:text-4xl italic leading-relaxed ${palette.textColor}`}>
+        <div className="flex-grow flex flex-col items-center justify-center text-center -mt-10">
+            <blockquote className="relative z-10 px-4">
+                <p className="font-sans text-3xl md:text-4xl font-bold leading-relaxed text-white">
                 “{verse.translation}”
                 </p>
             </blockquote>
-             <button onClick={() => onShowCitation(verse)} className={`block mt-6 text-base font-medium relative z-10 ${palette.citeColor} hover:underline focus:outline-none focus:underline`}>
-                — {verse.ref}
+             <button onClick={() => onShowCitation(verse)} className="block mt-6 text-lg font-medium relative z-10 text-white/70 tracking-wide focus:outline-none focus:underline">
+                — Quran {verse.sura}:{verse.ayah} —
             </button>
         </div>
         
-        <footer className={`flex justify-center items-center gap-4 do-not-capture ${palette.textColor} opacity-70`}>
-          {onRefresh && <button onClick={onRefresh} aria-label="Refresh verse" className="p-2 hover:opacity-100 transition-opacity focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full"><RefreshIcon className="w-5 h-5" /></button>}
-          <button onClick={onToggleFavorite} aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'} aria-pressed={isFavorite} className={`p-2 hover:opacity-100 transition-opacity focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full ${favoriteColorClass}`}><HeartIcon isFilled={isFavorite} className="w-5 h-5" /></button>
-          <button onClick={onCopy} aria-label="Copy verse text" className="p-2 hover:opacity-100 transition-opacity focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full"><CopyIcon className="w-5 h-5" /></button>
-          <button onClick={() => onShare(cardRef.current, verse)} aria-label="Share verse" className="p-2 hover:opacity-100 transition-opacity focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full"><ShareIcon className="w-5 h-5" /></button>
+        <footer className="flex justify-center items-center do-not-capture">
+            <div className="bg-black/20 backdrop-blur-md rounded-full px-5 py-3 flex items-center justify-center gap-x-6 ring-1 ring-white/10">
+                {onRefresh && <button onClick={onRefresh} aria-label="Refresh verse" className="p-2 text-white/80 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full"><RefreshIcon className="w-6 h-6" /></button>}
+                <button onClick={onToggleFavorite} aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'} aria-pressed={isFavorite} className={`p-2 transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full ${isFavorite ? 'text-white' : 'text-white/80 hover:text-white'}`}><HeartIcon isFilled={isFavorite} className="w-6 h-6" /></button>
+                <button onClick={onCopy} aria-label="Copy verse text" className="p-2 text-white/80 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full"><CopyIcon className="w-6 h-6" /></button>
+                <button onClick={() => onShare(cardRef.current, verse)} aria-label="Share verse" className="p-2 text-white/80 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full"><ShareIcon className="w-6 h-6" /></button>
+            </div>
         </footer>
       </div>
     </div>
