@@ -1,5 +1,5 @@
 {
   "name": "MoodVerse",
-  "description": "An application that displays a relevant verse based on your selected mood, drawing from a local collection of verses.",
+  "description": "An application that displays inspirational Quranic verses based on your selected mood. Find comfort, hope, and guidance for feelings like stress, sadness, and gratitude.",
   "requestFramePermissions": []
 }

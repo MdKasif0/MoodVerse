@@ -51,6 +51,17 @@ const App: React.FC = () => {
 
     fetchVerses();
   }, []);
+  
+  useEffect(() => {
+    if (currentVerse && selectedMood) {
+      document.title = `Verse for ${selectedMood}: ${currentVerse.ref} | MoodVerse`;
+    } else if (selectedMood) {
+      const capitalizedMood = selectedMood.charAt(0).toUpperCase() + selectedMood.slice(1);
+      document.title = `${capitalizedMood} Verses | MoodVerse`;
+    } else {
+      document.title = 'MoodVerse | Find a Verse for Your Mood';
+    }
+  }, [currentVerse, selectedMood]);
 
   useEffect(() => {
     localStorage.setItem('moodverse-favorites', JSON.stringify(favorites));

@@ -1,7 +1,6 @@
 import React, { forwardRef } from 'react';
 import type { Verse } from '../types';
 import CopyIcon from './icons/CopyIcon';
-import ShareIcon from './icons/ShareIcon';
 import MoodVerseLogo from './icons/MoodVerseLogo';
 import { moodPalettes } from './moodPalettes';
 import HeartIcon from './icons/HeartIcon';
