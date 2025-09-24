@@ -1,80 +1,64 @@
 import React, { forwardRef } from 'react';
 import type { Verse } from '../types';
 import CopyIcon from './icons/CopyIcon';
-import MoodVerseLogo from './icons/MoodVerseLogo';
-import { moodPalettes } from './moodPalettes';
 import HeartIcon from './icons/HeartIcon';
+import RefreshIcon from './icons/RefreshIcon';
+import ShareIcon from './icons/ShareIcon';
+import StarIcon from './icons/StarIcon';
+import MosqueIcon from './icons/MosqueIcon';
 
 interface VerseDisplayProps {
   verse: Verse | null;
-  mood: string | null;
   onCopy: () => void;
   isFavorite: boolean;
   onToggleFavorite: () => void;
+  onRefresh: () => void;
+  title: string;
 }
 
-const VerseDisplay = forwardRef<HTMLDivElement, VerseDisplayProps>(({ verse, mood, onCopy, isFavorite, onToggleFavorite }, ref) => {
-  if (!verse || !mood) {
+const VerseDisplay = forwardRef<HTMLDivElement, VerseDisplayProps>(({ verse, onCopy, isFavorite, onToggleFavorite, onRefresh, title }, ref) => {
+  if (!verse) {
     return (
-      <div className="text-center text-slate-500 mt-10 p-8 border-2 border-dashed border-slate-300 rounded-xl">
-        <p className="text-lg">Select a mood above to receive a verse.</p>
+      <div className="text-center text-gray-500 mt-10 p-8 mx-4">
+        <p className="text-lg">Select a mood to receive a verse.</p>
       </div>
     );
   }
   
-  const palette = (mood && moodPalettes[mood]) || moodPalettes['hopeful']; // Robust fallback
-  
-  // Use a softer, more subtle shadow and a very light border.
-  const cardClasses = 'shadow-lg shadow-slate-300/40 border border-black/5';
-    
-  const textColor = palette.textColor;
-  const citeColor = palette.citeColor;
-  const logoColor = palette.logoColor;
-
-  // Combine the texture pattern and the gradient for a layered background effect.
-  const backgroundStyle = { backgroundImage: `${palette.patternUrl}, ${palette.gradient}` };
+  const backgroundStyle = { backgroundImage: 'linear-gradient(to bottom right, #4A4A2C, #2F2F1A, #1A1A0D)' };
 
   return (
-    <div className="animate-fade-in w-full max-w-2xl mx-auto">
+    <div className="animate-fade-in w-full px-4" ref={ref}>
        <div 
-          ref={ref} 
-          className={`rounded-2xl p-6 md:p-10 relative overflow-hidden transition-all duration-700 ease-in-out ${cardClasses}`}
+          className="rounded-3xl p-6 relative overflow-hidden flex flex-col justify-between min-h-[400px] md:min-h-[450px]"
           style={backgroundStyle}
         >
         
-        <blockquote className="text-center relative z-10">
-            <p className={`font-serif text-2xl md:text-3xl lg:text-4xl italic leading-relaxed ${textColor}`}>
-            “{verse.translation}”
-            </p>
-        </blockquote>
-        <cite className={`block text-right mt-8 text-base font-medium relative z-10 ${citeColor}`}>
-            — {verse.ref}
-        </cite>
-        <div className={`absolute bottom-4 right-4 flex items-center gap-2 z-10 ${logoColor}`}>
-            <MoodVerseLogo className="w-5 h-5" />
-            <span className="font-semibold text-xs">MoodVerse</span>
+        <header className="flex items-center justify-between text-white/80">
+          <div className="flex items-center gap-2">
+            <StarIcon className="w-4 h-4" />
+            <span className="font-semibold text-sm">{title}</span>
+          </div>
+          <MosqueIcon />
+        </header>
+
+        <div className="flex-grow flex flex-col items-center justify-center text-center -mt-8">
+            <blockquote className="relative z-10">
+                <p className="font-serif text-2xl md:text-3xl italic leading-relaxed text-white">
+                “{verse.translation}”
+                </p>
+            </blockquote>
+            <cite className="block mt-6 text-base font-medium relative z-10 text-white/70">
+                — {verse.ref}
+            </cite>
         </div>
-      </div>
-      <div className="flex justify-center items-center gap-4 mt-6">
-        <button 
-          onClick={onToggleFavorite} 
-          aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
-          aria-pressed={isFavorite}
-          className={`flex items-center justify-center p-3 rounded-full transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-50 ${
-            isFavorite
-              ? 'bg-red-100 text-red-500 ring-red-300'
-              : 'bg-white text-slate-500 hover:bg-slate-100 border border-slate-200 ring-slate-400'
-          }`}
-        >
-          <HeartIcon isFilled={isFavorite} className="w-5 h-5" />
-        </button>
-        <button 
-          onClick={onCopy} 
-          aria-label="Copy verse text"
-          className="flex items-center justify-center p-3 rounded-full bg-white text-slate-500 hover:bg-slate-100 border border-slate-200 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-400 focus:ring-offset-slate-50"
-        >
-          <CopyIcon className="w-5 h-5" />
-        </button>
+        
+        <footer className="flex justify-center items-center gap-4 text-white/80">
+          <button onClick={onRefresh} aria-label="Refresh verse" className="p-2 hover:text-white transition-colors"><RefreshIcon className="w-5 h-5" /></button>
+          <button onClick={onToggleFavorite} aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'} aria-pressed={isFavorite} className={`p-2 hover:text-white transition-colors ${isFavorite ? 'text-red-400' : ''}`}><HeartIcon isFilled={isFavorite} className="w-5 h-5" /></button>
+          <button onClick={onCopy} aria-label="Copy verse text" className="p-2 hover:text-white transition-colors"><CopyIcon className="w-5 h-5" /></button>
+          <button aria-label="Share verse" className="p-2 hover:text-white transition-colors"><ShareIcon className="w-5 h-5" /></button>
+        </footer>
       </div>
     </div>
   );

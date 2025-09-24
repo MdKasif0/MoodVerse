@@ -7,8 +7,10 @@ export interface Verse {
   moods: string[];
 }
 
+// FIX: Export 'SelectionMode' type to resolve import error in components/SelectionModeToggle.tsx
 export type SelectionMode = 'random' | 'sequential';
 
+// FIX: Export 'Palette' type to resolve import error in components/moodPalettes.ts
 export interface Palette {
   gradient: string;
   patternUrl: string;

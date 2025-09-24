@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import type { Verse, SelectionMode } from './types';
+import type { Verse } from './types';
 import MoodSelector from './components/MoodSelector';
 import VerseDisplay from './components/VerseDisplay';
-import MoodVerseLogo from './components/icons/MoodVerseLogo';
-import SelectionModeToggle from './components/SelectionModeToggle';
-// import { toPng } from 'html-to-image';
+import TopBar from './components/TopBar';
+import BottomNavBar from './components/BottomNavBar';
+import ActionButtons from './components/ActionButtons';
 
 
 const App: React.FC = () => {
@@ -14,9 +14,8 @@ const App: React.FC = () => {
   const [currentVerse, setCurrentVerse] = useState<Verse | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  const [selectionMode, setSelectionMode] = useState<SelectionMode>('random');
-  const [verseIndices, setVerseIndices] = useState<{ [mood: string]: number }>({});
   const [favorites, setFavorites] = useState<string[]>([]);
+  const [displayTitle, setDisplayTitle] = useState('Verse of the Day');
   const verseCardRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -40,7 +39,11 @@ const App: React.FC = () => {
         setVersesData(data);
         
         const moods = [...new Set(data.flatMap(v => v.moods))].sort();
-        setAllMoods(moods);
+        setAllMoods(['sad', 'stress', 'demotivated', 'grateful', 'hopeful', 'patience', 'calm', 'forgiveness', 'courage']);
+
+        // Set initial "Verse of the Day"
+        const verseOfTheDay = data.find(v => v.id === 'mv-054'); // Quran 16:53 as default
+        setCurrentVerse(verseOfTheDay || data[0]);
 
       } catch (e) {
         setError(e instanceof Error ? e.message : "An unknown error occurred.");
@@ -55,9 +58,6 @@ const App: React.FC = () => {
   useEffect(() => {
     if (currentVerse && selectedMood) {
       document.title = `Verse for ${selectedMood}: ${currentVerse.ref} | MoodVerse`;
-    } else if (selectedMood) {
-      const capitalizedMood = selectedMood.charAt(0).toUpperCase() + selectedMood.slice(1);
-      document.title = `${capitalizedMood} Verses | MoodVerse`;
     } else {
       document.title = 'MoodVerse | Find a Verse for Your Mood';
     }
@@ -76,27 +76,42 @@ const App: React.FC = () => {
       return;
     }
 
-    let nextVerse: Verse;
-    const isNewMood = mood !== selectedMood;
-    setSelectedMood(mood);
-
-    if (selectionMode === 'random') {
-      // Prevent showing the same verse twice in a row for the same mood
-      let randomIndex;
-      do {
-        randomIndex = Math.floor(Math.random() * versesForMood.length);
-      } while (versesForMood.length > 1 && versesForMood[randomIndex].id === currentVerse?.id);
-      nextVerse = versesForMood[randomIndex];
-
-    } else { // sequential
-      const currentIndex = isNewMood ? 0 : (verseIndices[mood] ?? -1) + 1;
-      const nextIndex = currentIndex % versesForMood.length;
-      nextVerse = versesForMood[nextIndex];
-      setVerseIndices(prev => ({ ...prev, [mood]: nextIndex }));
-    }
+    // Prevent showing the same verse twice in a row for the same mood
+    let randomIndex;
+    do {
+      randomIndex = Math.floor(Math.random() * versesForMood.length);
+    } while (versesForMood.length > 1 && versesForMood[randomIndex].id === currentVerse?.id);
+    const nextVerse = versesForMood[randomIndex];
     
+    setSelectedMood(mood);
+    const capitalizedMood = mood.charAt(0).toUpperCase() + mood.slice(1);
+    setDisplayTitle(capitalizedMood);
     setCurrentVerse(nextVerse);
-  }, [versesData, selectedMood, selectionMode, verseIndices, currentVerse]);
+  }, [versesData, currentVerse]);
+
+  const handleVerseOfTheDay = useCallback(() => {
+    if (!versesData) return;
+    const verse = versesData.find(v => v.id === 'mv-054');
+    setCurrentVerse(verse || versesData[0]);
+    setDisplayTitle('Verse of the Day');
+    setSelectedMood(null);
+  }, [versesData]);
+
+  const handleRandom = useCallback(() => {
+    if (!versesData) return;
+    const randomIndex = Math.floor(Math.random() * versesData.length);
+    setCurrentVerse(versesData[randomIndex]);
+    setDisplayTitle('Random');
+    setSelectedMood(null);
+  }, [versesData]);
+
+  const handleRefresh = useCallback(() => {
+    if (selectedMood) {
+      handleMoodSelect(selectedMood);
+    } else {
+      handleRandom();
+    }
+  }, [selectedMood, handleMoodSelect, handleRandom]);
   
   const handleToggleFavorite = useCallback((verseId: string) => {
     setFavorites(prev => 
@@ -117,59 +132,55 @@ const App: React.FC = () => {
 
   const renderContent = () => {
     if (isLoading) {
-      return <div className="text-center text-slate-500 text-xl">Loading verses...</div>;
+      return <div className="text-center text-gray-400 text-xl">Loading verses...</div>;
     }
     if (error) {
       return <div className="text-center text-red-500 text-xl">Error: {error}</div>;
     }
     return (
       <>
+        <div className="px-4">
+          <h2 className="text-2xl font-bold text-white mb-4">How are you feeling?</h2>
+        </div>
         <MoodSelector
           moods={allMoods}
           selectedMood={selectedMood}
           onSelectMood={handleMoodSelect}
         />
-        <SelectionModeToggle 
-          selectionMode={selectionMode}
-          onModeChange={setSelectionMode}
+        <ActionButtons 
+          onVerseOfTheDay={handleVerseOfTheDay}
+          onRandom={handleRandom}
         />
         <VerseDisplay 
           key={currentVerse ? currentVerse.id : 'no-verse'}
           ref={verseCardRef}
           verse={currentVerse} 
-          mood={selectedMood} 
           onCopy={handleCopyText}
           isFavorite={currentVerse ? favorites.includes(currentVerse.id) : false}
           onToggleFavorite={() => currentVerse && handleToggleFavorite(currentVerse.id)}
+          onRefresh={handleRefresh}
+          title={displayTitle}
         />
       </>
     );
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col items-center justify-center p-4 sm:p-6 md:p-8 selection:bg-purple-500 selection:text-white">
+    <div className="min-h-screen bg-[#0F0F0F] text-gray-200 font-sans">
       <style>{`
         @keyframes fade-in {
           from { opacity: 0; transform: translateY(10px); }
           to { opacity: 1; transform: translateY(0); }
         }
         .animate-fade-in { animation: fade-in 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) forwards; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
       `}</style>
-      <main className="container mx-auto text-center w-full flex-grow flex flex-col justify-center max-w-4xl">
-        <header className="mb-8 mt-8">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-800 flex items-center justify-center gap-3">
-            <MoodVerseLogo className="w-8 h-8 md:w-10 h-10 text-purple-600" />
-            MoodVerse
-          </h1>
-          <p className="text-slate-600 mt-4 text-lg md:text-xl max-w-xl mx-auto">
-            Find a verse that speaks to your heart. How are you feeling today?
-          </p>
-        </header>
+      <TopBar />
+      <main className="pb-24">
         {renderContent()}
       </main>
-      <footer className="w-full text-center py-4 text-slate-500 text-sm mt-8">
-        <p>Created with React & Tailwind CSS</p>
-      </footer>
+      <BottomNavBar />
     </div>
   );
 };

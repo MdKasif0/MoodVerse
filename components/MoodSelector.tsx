@@ -1,5 +1,5 @@
 import React from 'react';
-import { moodIcons } from './moodIcons';
+import { moodEmojis } from './moodEmojis';
 
 interface MoodSelectorProps {
   moods: string[];
@@ -9,10 +9,10 @@ interface MoodSelectorProps {
 
 const MoodSelector: React.FC<MoodSelectorProps> = ({ moods, selectedMood, onSelectMood }) => {
   return (
-    <div className="grid grid-cols-3 sm:grid-cols-5 justify-center gap-4 my-8">
+    <div className="flex items-center gap-2 py-4 overflow-x-auto whitespace-nowrap no-scrollbar px-4">
       {moods.map((mood) => {
         const isSelected = mood === selectedMood;
-        const Icon = moodIcons[mood] || null;
+        const emoji = moodEmojis[mood] || '😊';
 
         return (
           <button
@@ -20,16 +20,19 @@ const MoodSelector: React.FC<MoodSelectorProps> = ({ moods, selectedMood, onSele
             onClick={() => onSelectMood(mood)}
             aria-pressed={isSelected}
             className={`
-              flex flex-col items-center justify-center gap-2 p-3 rounded-2xl transition-all duration-200 ease-in-out aspect-square border
-              focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-50 focus:ring-purple-500
+              relative flex items-center justify-center gap-2 px-4 py-2 rounded-full transition-colors duration-200 ease-in-out
+              focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-[#0F0F0F] focus:ring-gray-400
               ${isSelected
-                ? 'bg-purple-50 text-purple-600 border-purple-200 shadow-sm'
-                : 'bg-white text-slate-500 border-slate-200 hover:bg-slate-100 hover:text-slate-700 hover:border-slate-300'
+                ? 'bg-gray-700 text-white'
+                : 'bg-[#2D2D2D] text-gray-300 hover:bg-gray-700'
               }
             `}
           >
-            {Icon && <Icon />}
-            <span className="text-xs sm:text-sm font-semibold capitalize">{mood}</span>
+            <span>{emoji}</span>
+            <span className="text-sm font-medium capitalize">{mood}</span>
+            {isSelected && (
+              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-1/2 h-0.5 bg-white rounded-full" />
+            )}
           </button>
         );
       })}
