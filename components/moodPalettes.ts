@@ -18,73 +18,73 @@ const createPaperTextureUrl = () => {
 const paperTexture = createPaperTextureUrl();
 
 export const moodPalettes: { [key: string]: Palette } = {
-  // sadness: #9BB7D4 → #E8F1F8
+  // sad: soft slate blue → light grey
   sad: {
-    gradient: 'linear-gradient(to top right, #E8F1F8, #9BB7D4)',
+    gradient: 'linear-gradient(to top right, #E8F1F8, #D4DEE7)',
     patternUrl: paperTexture,
     textColor: 'text-slate-800',
     citeColor: 'text-slate-600',
     logoColor: 'text-slate-500/60',
   },
-  // anxiety: #F6D0C4 → #FFF5F3 -> Mapped to 'stress'
+  // stress: very light cream / soft neutral
   stress: {
-    gradient: 'linear-gradient(to top right, #FFF5F3, #F6D0C4)',
+    gradient: 'linear-gradient(to top right, #F9F6F2, #EFEAE4)',
     patternUrl: paperTexture,
-    textColor: 'text-orange-900',
-    citeColor: 'text-orange-800',
-    logoColor: 'text-orange-800/50',
+    textColor: 'text-stone-800',
+    citeColor: 'text-stone-700/80',
+    logoColor: 'text-stone-600/60',
   },
-  // gratitude: #FBE7C6 → #FFF9F0 -> Mapped to 'grateful'
+  // grateful: light cream / pale yellow
   grateful: {
     gradient: 'linear-gradient(to top right, #FFF9F0, #FBE7C6)',
     patternUrl: paperTexture,
     textColor: 'text-amber-900',
-    citeColor: 'text-amber-800',
+    citeColor: 'text-amber-800/80',
     logoColor: 'text-amber-800/50',
   },
-  // hope: #C6EBC6 → #F6FFF6 -> Mapped to 'hopeful'
+  // hopeful: pale mint → white
   hopeful: {
-    gradient: 'linear-gradient(to top right, #F6FFF6, #C6EBC6)',
+    gradient: 'linear-gradient(to top right, #F6FFF6, #D8F0D8)',
     patternUrl: paperTexture,
     textColor: 'text-green-900',
-    citeColor: 'text-green-800',
+    citeColor: 'text-green-800/80',
     logoColor: 'text-green-800/50',
   },
-  // patience: #D7D2FF → #F5F4FF
+  // patience: soft lavender
   patience: {
-    gradient: 'linear-gradient(to top right, #F5F4FF, #D7D2FF)',
+    gradient: 'linear-gradient(to top right, #F5F4FF, #E2E0FF)',
     patternUrl: paperTexture,
     textColor: 'text-indigo-900',
-    citeColor: 'text-indigo-800',
+    citeColor: 'text-indigo-800/80',
     logoColor: 'text-indigo-800/50',
   },
-  // calm: light teal #BDE6E6 -> #F0FAFA
+  // calm: light teal
   calm: {
-    gradient: 'linear-gradient(to top right, #F0FAFA, #BDE6E6)',
+    gradient: 'linear-gradient(to top right, #F0FAFA, #D0E8E8)',
     patternUrl: paperTexture,
     textColor: 'text-teal-900',
-    citeColor: 'text-teal-800',
+    citeColor: 'text-teal-800/80',
     logoColor: 'text-teal-800/50',
   },
-  // forgiveness: soft lavender #E1E1ED -> #F7F7F9
+  // forgiveness: gentle grey / off-white
   forgiveness: {
-    gradient: 'linear-gradient(to top right, #F7F7F9, #E1E1ED)',
+    gradient: 'linear-gradient(to top right, #F7F7F9, #EAEAF0)',
     patternUrl: paperTexture,
     textColor: 'text-slate-800',
     citeColor: 'text-slate-600',
     logoColor: 'text-slate-500/60',
   },
-  // courage: warm peach #FFDAB9 -> #FFF8F0
+  // courage: gentle warm gold
   courage: {
-    gradient: 'linear-gradient(to top right, #FFF8F0, #FFDAB9)',
+    gradient: 'linear-gradient(to top right, #FCFAF5, #F5EADF)',
     patternUrl: paperTexture,
     textColor: 'text-orange-900',
-    citeColor: 'text-orange-800',
-    logoColor: 'text-orange-800/50',
+    citeColor: 'text-orange-800/80',
+    logoColor: 'text-orange-700/60',
   },
-  // demotivated: neutral grey #D8D8D8 -> #F5F5F5
+  // demotivated: gentle grey
   demotivated: {
-    gradient: 'linear-gradient(to top right, #F5F5F5, #D8D8D8)',
+    gradient: 'linear-gradient(to top right, #F5F5F5, #E0E0E0)',
     patternUrl: paperTexture,
     textColor: 'text-gray-800',
     citeColor: 'text-gray-600',

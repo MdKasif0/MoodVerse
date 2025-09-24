@@ -1,3 +1,5 @@
+import { ReactElement } from "react";
+
 export interface Verse {
   id: string;
   ref: string;
@@ -7,10 +9,6 @@ export interface Verse {
   moods: string[];
 }
 
-// FIX: Export 'SelectionMode' type to resolve import error in components/SelectionModeToggle.tsx
-export type SelectionMode = 'random' | 'sequential';
-
-// FIX: Export 'Palette' type to resolve import error in components/moodPalettes.ts
 export interface Palette {
   gradient: string;
   patternUrl: string;
@@ -18,3 +16,6 @@ export interface Palette {
   citeColor: string;
   logoColor: string;
 }
+
+// FIX: Export SelectionMode type to be used in SelectionModeToggle.tsx
+export type SelectionMode = 'random' | 'sequential';

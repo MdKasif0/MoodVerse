@@ -13,10 +13,9 @@ MoodVerse is a serene and beautifully designed web application that provides ins
 - **📖 Mood-Based Discovery:** Select from a range of moods like 'Hopeful', 'Sad', 'Stress', and 'Grateful' to find a relevant verse.
 - **📚 Rich Verse Collection:** Features a curated collection of over 300 verses from the Quran.
 - **🎨 Themed Visuals:** Each mood is paired with a unique, aesthetically pleasing color palette and background texture.
-- **🔀 Two Discovery Modes:**
-  - **Random Mode:** Get a surprise verse every time you click a mood.
-  - **Sequential Mode:** Read through all verses for a specific mood in order.
+- **🔀 Multiple Discovery Modes:** Get a verse for your mood, a random verse, or the special 'Verse of the Day'.
 - **❤️ Favorites:** Save your most cherished verses to your personal collection, stored locally in your browser.
+- **🔗 Tafsir Links:** Tap the verse reference to open a modal with the full citation and a direct link to Quran.com for deeper study.
 - **📋 Copy to Clipboard:** Easily copy the verse and its reference to share with others.
 - **📱 Fully Responsive:** A seamless experience on desktop, tablet, and mobile devices.
 - **⚡ Fast & Offline-Ready:** Built as a Progressive Web App (PWA), MoodVerse loads quickly and works even without an internet connection.
@@ -25,7 +24,7 @@ MoodVerse is a serene and beautifully designed web application that provides ins
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** [React](https://reactjs.org/) (with Vite)
+- **Frontend:** [React](https://reactjs.org/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Language:** [TypeScript](https://www.typescriptlang.org/)
 - **Icons:** Custom SVG components
