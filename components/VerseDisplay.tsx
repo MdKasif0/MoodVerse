@@ -2,24 +2,22 @@ import React, { useRef } from 'react';
 import type { Verse } from '../types';
 import CopyIcon from './icons/CopyIcon';
 import HeartIcon from './icons/HeartIcon';
-import RefreshIcon from './icons/RefreshIcon';
 import ShareIcon from './icons/ShareIcon';
 import StarIcon from './icons/StarIcon';
-import MosqueIcon from './icons/MosqueIcon';
+import { darkMoodPalettes } from './darkMoodPalettes';
 
 interface VerseDisplayProps {
   verse: Verse | null;
   onCopy: () => void;
   isFavorite: boolean;
   onToggleFavorite: () => void;
-  onRefresh?: () => void;
   onShare: (element: HTMLElement | null, verse: Verse | null) => void;
   onShowCitation: (verse: Verse) => void;
   title: string;
-  selectedMood: string | null; // Kept for title consistency, but not for styling
+  selectedMood: string | null;
 }
 
-const VerseDisplay: React.FC<VerseDisplayProps> = ({ verse, onCopy, isFavorite, onToggleFavorite, onRefresh, onShare, onShowCitation, title }) => {
+const VerseDisplay: React.FC<VerseDisplayProps> = ({ verse, onCopy, isFavorite, onToggleFavorite, onShare, onShowCitation, title, selectedMood }) => {
   const cardRef = useRef<HTMLDivElement>(null);
 
   if (!verse) {
@@ -30,8 +28,11 @@ const VerseDisplay: React.FC<VerseDisplayProps> = ({ verse, onCopy, isFavorite, 
     );
   }
   
+  const moodForColor = selectedMood || (verse.moods && verse.moods[0]) || 'default';
+  const palette = darkMoodPalettes[moodForColor] || darkMoodPalettes.default;
+
   const backgroundStyle = {
-    background: 'radial-gradient(circle at 50% 50%, #3F431D 0%, #14140F 100%)',
+    background: palette.background,
   };
 
   return (
@@ -46,8 +47,9 @@ const VerseDisplay: React.FC<VerseDisplayProps> = ({ verse, onCopy, isFavorite, 
             <StarIcon className="w-5 h-5" />
             <span className="font-medium">{title}</span>
           </div>
-          <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center backdrop-blur-sm ring-1 ring-white/10">
-            <MosqueIcon className="w-7 h-7" />
+          <div className="flex items-center gap-2 text-white/80">
+            <span className="font-medium text-sm">MoodVerse</span>
+            <img src="/images/moodverses-logo.png" alt="MoodVerse App Icon" className="w-9 h-9 rounded-lg" />
           </div>
         </header>
 
@@ -64,7 +66,6 @@ const VerseDisplay: React.FC<VerseDisplayProps> = ({ verse, onCopy, isFavorite, 
         
         <footer className="flex justify-end items-center do-not-capture">
             <div className="bg-black/20 backdrop-blur-md rounded-full px-5 py-3 flex items-center justify-center gap-x-6 ring-1 ring-white/10">
-                {onRefresh && <button onClick={onRefresh} aria-label="Refresh verse" className="p-2 text-white/80 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full"><RefreshIcon className="w-6 h-6" /></button>}
                 <button onClick={onToggleFavorite} aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'} aria-pressed={isFavorite} className={`p-2 transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full ${isFavorite ? 'text-white' : 'text-white/80 hover:text-white'}`}><HeartIcon isFilled={isFavorite} className="w-6 h-6" /></button>
                 <button onClick={onCopy} aria-label="Copy verse text" className="p-2 text-white/80 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full"><CopyIcon className="w-6 h-6" /></button>
                 <button onClick={() => onShare(cardRef.current, verse)} aria-label="Share verse" className="p-2 text-white/80 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full"><ShareIcon className="w-6 h-6" /></button>

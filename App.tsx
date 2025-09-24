@@ -7,6 +7,7 @@ import ActionButtons from './components/ActionButtons';
 import FavoritesPage from './components/FavoritesPage';
 import CitationModal from './components/CitationModal';
 import Notification from './components/Notification';
+import InstallPWAButton from './components/InstallPWAButton';
 
 declare const htmlToImage: any;
 
@@ -110,14 +111,6 @@ const App: React.FC = () => {
     setDisplayTitle('Random');
     setSelectedMood(null);
   }, [versesData]);
-
-  const handleRefresh = useCallback(() => {
-    if (selectedMood) {
-      handleMoodSelect(selectedMood);
-    } else {
-      handleRandom();
-    }
-  }, [selectedMood, handleMoodSelect, handleRandom]);
   
   const handleToggleFavorite = useCallback((verseId: string) => {
     const isCurrentlyFavorite = favorites.includes(verseId);
@@ -222,7 +215,6 @@ const App: React.FC = () => {
           onCopy={() => handleCopyText(currentVerse)}
           isFavorite={currentVerse ? favorites.includes(currentVerse.id) : false}
           onToggleFavorite={() => currentVerse && handleToggleFavorite(currentVerse.id)}
-          onRefresh={handleRefresh}
           onShare={handleShare}
           onShowCitation={handleShowCitation}
           title={displayTitle}
@@ -269,11 +261,12 @@ const App: React.FC = () => {
         view={view}
         onNavigate={view === 'main' ? () => setView('favorites') : () => setView('main')}
       />
-      <main className="pb-8">
+      <main className="pb-32">
         {renderContent()}
       </main>
       <CitationModal verse={modalVerse} onClose={handleCloseModal} />
       <Notification message={notification} onClose={() => setNotification(null)} />
+      <InstallPWAButton />
     </div>
   );
 };
