@@ -62,7 +62,7 @@ const VerseDisplay: React.FC<VerseDisplayProps> = ({ verse, onCopy, isFavorite, 
             </button>
         </div>
         
-        <footer className="flex justify-center items-center do-not-capture">
+        <footer className="flex justify-end items-center do-not-capture">
             <div className="bg-black/20 backdrop-blur-md rounded-full px-5 py-3 flex items-center justify-center gap-x-6 ring-1 ring-white/10">
                 {onRefresh && <button onClick={onRefresh} aria-label="Refresh verse" className="p-2 text-white/80 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full"><RefreshIcon className="w-6 h-6" /></button>}
                 <button onClick={onToggleFavorite} aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'} aria-pressed={isFavorite} className={`p-2 transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full ${isFavorite ? 'text-white' : 'text-white/80 hover:text-white'}`}><HeartIcon isFilled={isFavorite} className="w-6 h-6" /></button>
